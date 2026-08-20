@@ -1,0 +1,480 @@
+{
+  "intro": "Maps UK civil service grades to framework relevance. This is a maturity framework: level bands show where strong performance is most meaningfully demonstrated, aspirational but grounded in typical remit. Cluster tier and question overrides refine individual rows. Profiler answers adjust the grade baseline when completed.",
+  "grades": [
+    {
+      "grade_id": "AA_AO",
+      "grade_name": "AA / AO",
+      "full_title": "Administrative Assistant / Administrative Officer",
+      "sort_order": 1,
+      "base_ceiling": 3,
+      "base_focus_min": 2,
+      "base_focus_max": 3,
+      "summary": "Entry operational grades — foundational DDI & AI maturity targets Working where the capability is used daily; Awareness is the floor, not the ceiling.",
+      "description": "Administrative Assistant (AA) and Administrative Officer (AO) are the main entry grades in the UK civil service for England and Wales. People at these grades are usually in operational delivery — processing claims and applications, updating records, handling correspondence, scheduling, and supporting colleagues and the public on the phone, by post or online. Many work in shared services, contact centres, benefit processing, courts and tribunals support, or local office teams in departments such as DWP, HMRC, DVLA and HM Courts & Tribunals Service.",
+      "typical_activities": [
+        "Processing casework, forms and transactions using departmental systems",
+        "Answering routine enquiries from the public or internal customers",
+        "Maintaining accurate records and following standard operating procedures",
+        "Supporting team organisation — diaries, post, filing, data entry",
+        "Learning workplace tools and security rules under close guidance"
+      ],
+      "proficiency_expectation": "On foundational strands, Working is the maturity target for high performers — independent use of data, digital tools and systems in everyday casework. Awareness is the expected floor where the capability is in regular use. Practitioner behaviours (helping colleagues, modelling good practice) can appear informally even at this grade. Expert remains out of scope."
+    },
+    {
+      "grade_id": "EO",
+      "grade_name": "EO",
+      "full_title": "Executive Officer",
+      "sort_order": 2,
+      "base_ceiling": 3,
+      "base_focus_min": 2,
+      "base_focus_max": 3,
+      "summary": "Executive Officer — coordinates work and supports colleagues. Working is the maturity target on foundational strands; Practitioner may be demonstrated through informal influence.",
+      "description": "Executive Officer (EO) sits above AO in operational and administrative structures across UK government departments and agencies. EOs often coordinate day-to-day work in a small team or section — allocating tasks, checking quality, handling more complex casework, and supporting new starters. They may have limited line-management responsibility or act as a team coordinator. Roles are still predominantly delivery-focused rather than policy-shaping.",
+      "typical_activities": [
+        "Coordinating operational work and monitoring quality in a team or section",
+        "Handling escalated or more complex casework and exceptions",
+        "Briefing colleagues on procedure changes and routine improvements",
+        "Using departmental systems confidently for everyday tasks and reports",
+        "Contributing ideas for small improvements within established processes"
+      ],
+      "proficiency_expectation": "Working is the benchmark for competent performance where DDI & AI is part of everyday delivery. Briefing colleagues, checking quality and supporting new starters can evidence Practitioner behaviours on some strands. Expert authority is not expected."
+    },
+    {
+      "grade_id": "HEO",
+      "grade_name": "HEO",
+      "full_title": "Higher Executive Officer",
+      "sort_order": 3,
+      "base_ceiling": 4,
+      "base_focus_min": 3,
+      "base_focus_max": 4,
+      "summary": "Higher Executive Officer — owns workstreams and often supports or line-manages others. Practitioner is a realistic maturity target where DDI & AI is core to the role.",
+      "description": "Higher Executive Officer (HEO) is a common grade for policy officers, analysts, programme support staff, operations managers and specialist administrators in Whitehall departments, arm's-length bodies and the Welsh Government. HEOs typically own discrete pieces of work — drafting briefings, running workstreams, managing small teams of EOs/AOs, or providing specialist support. DDI & AI capabilities are often used routinely in the job, but authority to set standards or lead across teams is still limited.",
+      "typical_activities": [
+        "Drafting papers, briefings and analysis for managers and stakeholders",
+        "Managing a small team or workstream in delivery or policy support",
+        "Using data, digital tools or AI features regularly in your own work",
+        "Coordinating stakeholders and tracking actions on projects or programmes",
+        "Testing small improvements or pilots within your area of responsibility"
+      ],
+      "proficiency_expectation": "Working is the baseline; Practitioner is the aspiration where you coach colleagues, improve team practice or are relied on for advice in your area. Managing a workstream or small team offers scope to demonstrate influence beyond your own tasks. Expert outcomes need wider organisational remit."
+    },
+    {
+      "grade_id": "SEO",
+      "grade_name": "SEO",
+      "full_title": "Senior Executive Officer",
+      "sort_order": 4,
+      "base_ceiling": 4,
+      "base_focus_min": 3,
+      "base_focus_max": 4,
+      "summary": "Senior Executive Officer — leads workstreams and often line-manages staff. Practitioner is a realistic maturity target; Expert possible with wider remit.",
+      "description": "Senior Executive Officer (SEO) is a senior operational and policy support grade. SEOs often lead workstreams, act as deputy team leads, manage small multidisciplinary teams, or serve as experienced policy or delivery specialists. They influence how work is done in their area, commission analysis, and represent the team with stakeholders. In many departments SEO is the grade at which people first routinely line-manage staff.",
+      "typical_activities": [
+        "Leading workstreams, projects or small teams with clear deliverables",
+        "Line-managing staff and overseeing quality, performance and development",
+        "Shaping briefings and recommendations for G7 managers and stakeholders",
+        "Commissioning and quality-assuring analysis, user research or digital delivery",
+        "Championing improvements and experiments within your team's remit"
+      ],
+      "proficiency_expectation": "Practitioner is the maturity target for high performers — line management, commissioning work, quality-assuring output and shaping how your team works. Working remains the floor for independent delivery. Expert is aspirational where you hold cross-team or specialist authority."
+    },
+    {
+      "grade_id": "G7",
+      "grade_name": "G7",
+      "full_title": "Grade 7",
+      "sort_order": 5,
+      "base_ceiling": 4,
+      "base_focus_min": 3,
+      "base_focus_max": 4,
+      "summary": "Grade 7 — team or unit lead. Practitioner is the expected maturity band; Expert is realistic with formal specialist or cross-team remit.",
+      "description": "Grade 7 is a middle leadership grade across UK government — team leader, unit head, lead policy officer, lead digital or data specialist, or programme manager. G7s are accountable for team outputs, people management, and the quality of advice or services their unit provides. They translate departmental priorities into delivery plans and are often the person others turn to for guidance within a team or profession.",
+      "typical_activities": [
+        "Leading a team, unit or policy area with formal management responsibility",
+        "Setting work standards, reviewing output and developing staff capability",
+        "Representing the team with senior stakeholders and partner organisations",
+        "Owning budgets, risks and delivery plans for a defined area of work",
+        "Driving user-centred, data-informed or innovative approaches in your team"
+      ],
+      "proficiency_expectation": "Practitioner is the benchmark — coaching, setting standards and improving practice in your team. Expert is an achievable aspiration where DDI & AI governance, profession leadership or system change is part of your accountability."
+    },
+    {
+      "grade_id": "G6",
+      "grade_name": "G6",
+      "full_title": "Grade 6",
+      "sort_order": 6,
+      "base_ceiling": 5,
+      "base_focus_min": 4,
+      "base_focus_max": 5,
+      "summary": "Grade 6 — senior leader or programme director. Practitioner is the floor; Expert is the maturity target where DDI & AI is in scope.",
+      "description": "Grade 6 is a senior leadership grade — programme directors, heads of profession, deputy directors and senior specialists in departments, agencies and the Welsh Government. G6s shape strategy for a policy area, programme or function, lead large or complex teams, and are accountable for outcomes across multiple workstreams. Many hold formal specialist or profession-lead responsibilities for digital, data, innovation or AI.",
+      "typical_activities": [
+        "Directing programmes, functions or policy areas with substantial budgets and risk",
+        "Setting strategy and standards for teams, professions or cross-cutting portfolios",
+        "Advising ministers, boards or senior committees on options and delivery",
+        "Building capability across teams and resolving systemic barriers to improvement",
+        "Governing major digital, data or AI initiatives and their public impact"
+      ],
+      "proficiency_expectation": "Practitioner is expected as a minimum for leading others' practice. Expert is the aspiration where you set standards, govern programmes or act as profession lead — shaping capability and direction beyond your immediate team."
+    },
+    {
+      "grade_id": "SCS",
+      "grade_name": "SCS",
+      "full_title": "Senior Civil Service",
+      "sort_order": 7,
+      "base_ceiling": 5,
+      "base_focus_min": 4,
+      "base_focus_max": 5,
+      "summary": "Senior Civil Service — strategic authority. Expert outcomes are possible where DDI & AI direction is part of the role.",
+      "description": "The Senior Civil Service (SCS) comprises director, director general and permanent secretary-level leaders accountable for departments, agencies, functions or major cross-government portfolios in England and Wales. SCS members set organisational strategy, allocate resources, represent the civil service to ministers and Parliament, and shape system-wide standards — including how digital, data, innovation and AI are adopted responsibly at scale.",
+      "typical_activities": [
+        "Setting organisational strategy, priorities and governance for major functions",
+        "Accountability for departmental or agency outcomes, risk and public value",
+        "Building senior collective leadership and organisational culture",
+        "Commissioning and assuring large transformation, data and technology programmes",
+        "Representing UK government positions with ministers, partners and internationally"
+      ],
+      "proficiency_expectation": "Practitioner to Expert is the maturity band — shaping culture, standards and organisational capability is core to the role. Expert descriptors reflect strategic authority where DDI & AI is part of your accountability."
+    }
+  ],
+  "demonstration_pathways": {
+    "intro": "How you mainly demonstrate maturity affects which rows matter most for your development — especially at Practitioner and Expert. This does not change your grade focus band.",
+    "specialist": {
+      "label": "Specialist depth",
+      "summary": "Your maturity is mainly shown through authoritative knowledge and expert practice in domain strands relevant to your role."
+    },
+    "leadership": {
+      "label": "Enabling leadership",
+      "summary": "Your maturity is mainly shown through transversal skills and behaviours — listening to experts, psychological safety, collaboration and ethical judgement — rather than being the deepest subject authority on every strand."
+    },
+    "mixed": {
+      "label": "Mixed remit",
+      "summary": "You demonstrate both specialist depth in your domain and enabling leadership — for example a profession lead who also shapes team culture and commissions wider expertise."
+    }
+  },
+  "profiler": [
+    {
+      "question_id": "demonstration_pathway",
+      "prompt": "How do you mainly demonstrate DDI & AI maturity in your role?",
+      "min_grade_order": 2,
+      "options": [
+        {
+          "option_id": "specialist",
+          "option_label": "Specialist depth — authoritative knowledge and expert practice in my domain",
+          "demonstration_pathway": "specialist",
+          "ddi_centrality": null,
+          "influence": null,
+          "ceiling_delta": null
+        },
+        {
+          "option_id": "leadership",
+          "option_label": "Enabling leadership — creating conditions, listening to experts, strong transversal practice",
+          "demonstration_pathway": "leadership",
+          "ddi_centrality": null,
+          "influence": null,
+          "ceiling_delta": null
+        },
+        {
+          "option_id": "mixed",
+          "option_label": "Mixed — I combine specialist depth with leadership responsibilities",
+          "demonstration_pathway": "mixed",
+          "ddi_centrality": null,
+          "influence": null,
+          "ceiling_delta": null
+        }
+      ]
+    },
+    {
+      "question_id": "ddi_centrality",
+      "prompt": "How central is digital data or AI to your day-to-day role?",
+      "options": [
+        {
+          "option_id": "minimal",
+          "option_label": "DDI & AI is rarely part of my work",
+          "ddi_centrality": "minimal",
+          "influence": null,
+          "ceiling_delta": null
+        },
+        {
+          "option_id": "adjacent",
+          "option_label": "DDI & AI comes up sometimes but is not the main focus",
+          "ddi_centrality": "adjacent",
+          "influence": null,
+          "ceiling_delta": null
+        },
+        {
+          "option_id": "core",
+          "option_label": "DDI & AI is a regular and important part of my work",
+          "ddi_centrality": "core",
+          "influence": null,
+          "ceiling_delta": null
+        },
+        {
+          "option_id": "specialist",
+          "option_label": "I am a recognised specialist or profession lead in DDI & AI",
+          "ddi_centrality": "specialist",
+          "influence": null,
+          "ceiling_delta": null
+        }
+      ]
+    },
+    {
+      "question_id": "influence",
+      "prompt": "What is your typical influence remit?",
+      "options": [
+        {
+          "option_id": "individual",
+          "option_label": "I mainly affect my own work",
+          "ddi_centrality": "individual",
+          "influence": null,
+          "ceiling_delta": -1
+        },
+        {
+          "option_id": "team",
+          "option_label": "I lead or coach a team on how we work",
+          "ddi_centrality": "team",
+          "influence": null,
+          "ceiling_delta": 0
+        },
+        {
+          "option_id": "cross_team",
+          "option_label": "I influence work across teams or services",
+          "ddi_centrality": "cross_team",
+          "influence": null,
+          "ceiling_delta": 1
+        },
+        {
+          "option_id": "organisation",
+          "option_label": "I shape standards policy or direction across the organisation",
+          "ddi_centrality": "organisation",
+          "influence": null,
+          "ceiling_delta": 1
+        }
+      ]
+    },
+    {
+      "question_id": "specialist_role",
+      "prompt": "Are you in a formal specialist or profession lead role?",
+      "options": [
+        {
+          "option_id": "no",
+          "option_label": "No",
+          "ddi_centrality": null,
+          "influence": null,
+          "ceiling_delta": 0
+        },
+        {
+          "option_id": "yes",
+          "option_label": "Yes — I am a lead specialist head of profession or equivalent",
+          "ddi_centrality": null,
+          "influence": null,
+          "ceiling_delta": 1
+        }
+      ]
+    }
+  ],
+  "levelExpectations": {
+    "intro": "Cluster tier sets aspirational level bands by grade. Question overrides refine individual rows. Levels above the band are stretch goals; the grade ceiling is a guide not a hard cap on ambition.",
+    "foundational": {
+      "AA_AO": { "max_level": 3, "focus_min": 2, "focus_max": 3 },
+      "EO": { "max_level": 3, "focus_min": 2, "focus_max": 3 },
+      "HEO": { "max_level": 4, "focus_min": 3, "focus_max": 4 },
+      "SEO": { "max_level": 4, "focus_min": 3, "focus_max": 4 },
+      "G7": { "max_level": 4, "focus_min": 3, "focus_max": 4 },
+      "G6": { "max_level": 5, "focus_min": 4, "focus_max": 5 },
+      "SCS": { "max_level": 5, "focus_min": 4, "focus_max": 5 }
+    },
+    "operational": {
+      "EO": { "max_level": 3, "focus_min": 2, "focus_max": 3 },
+      "HEO": { "max_level": 4, "focus_min": 3, "focus_max": 4 },
+      "SEO": { "max_level": 4, "focus_min": 3, "focus_max": 4 },
+      "G7": { "max_level": 4, "focus_min": 3, "focus_max": 4 },
+      "G6": { "max_level": 5, "focus_min": 4, "focus_max": 5 },
+      "SCS": { "max_level": 5, "focus_min": 4, "focus_max": 5 }
+    },
+    "professional": {
+      "HEO": { "max_level": 4, "focus_min": 3, "focus_max": 4 },
+      "SEO": { "max_level": 4, "focus_min": 3, "focus_max": 4 },
+      "G7": { "max_level": 4, "focus_min": 3, "focus_max": 4 },
+      "G6": { "max_level": 5, "focus_min": 4, "focus_max": 5 },
+      "SCS": { "max_level": 5, "focus_min": 4, "focus_max": 5 }
+    },
+    "leadership": {
+      "G7": { "max_level": 5, "focus_min": 4, "focus_max": 5 },
+      "G6": { "max_level": 5, "focus_min": 4, "focus_max": 5 },
+      "SCS": { "max_level": 5, "focus_min": 4, "focus_max": 5 }
+    },
+    "section_adjustments": {
+      "foundational": {
+        "skills": {
+          "AA_AO": { "focus_min": 3, "focus_max": 3 },
+          "EO": { "focus_min": 3, "focus_max": 3 }
+        }
+      }
+    }
+  },
+  "clusterRelevance": {
+    "Data|Foundational Data Skills": {
+      "domain": "Data",
+      "cluster": "Foundational Data Skills",
+      "min_grade_order": 1,
+      "tier": "foundational",
+      "rationale": "Foundational literacy expected at all grades. Working is the maturity target for high performers on everyday data use."
+    },
+    "Data|Data Quality and Integrity": {
+      "domain": "Data",
+      "cluster": "Data Quality and Integrity",
+      "min_grade_order": 3,
+      "tier": "professional",
+      "rationale": "Quality and standards work typically needs HEO-level remit or regular data handling."
+    },
+    "Data|Data-Driven Decision Making": {
+      "domain": "Data",
+      "cluster": "Data-Driven Decision Making",
+      "min_grade_order": 3,
+      "tier": "professional",
+      "rationale": "Analytical decision support is usually HEO+ or specialist posts."
+    },
+    "Data|Responsible Data Sharing": {
+      "domain": "Data",
+      "cluster": "Responsible Data Sharing",
+      "min_grade_order": 3,
+      "tier": "professional",
+      "rationale": "Cross-boundary sharing needs sufficient authority and data maturity."
+    },
+    "AI|Foundational AI Skills": {
+      "domain": "AI",
+      "cluster": "Foundational AI Skills",
+      "min_grade_order": 1,
+      "tier": "foundational",
+      "rationale": "Basic AI literacy is relevant across the workforce."
+    },
+    "AI|AI Governance and Ethics": {
+      "domain": "AI",
+      "cluster": "AI Governance and Ethics",
+      "min_grade_order": 4,
+      "tier": "professional",
+      "rationale": "Governance and ethics questions assume SEO+ remit or formal AI responsibility."
+    },
+    "Digital|Foundational Digital Skills": {
+      "domain": "Digital",
+      "cluster": "Foundational Digital Skills",
+      "min_grade_order": 1,
+      "tier": "foundational",
+      "rationale": "Everyday digital skills apply at all grades."
+    },
+    "Digital|Digital Transformation": {
+      "domain": "Digital",
+      "cluster": "Digital Transformation",
+      "min_grade_order": 3,
+      "tier": "professional",
+      "rationale": "Service design and user-centred change typically needs HEO+ involvement."
+    },
+    "Digital|Digital Leadership": {
+      "domain": "Digital",
+      "cluster": "Digital Leadership",
+      "min_grade_order": 5,
+      "tier": "leadership",
+      "rationale": "Leading in a digital age is a G7+ leadership expectation."
+    },
+    "Digital|Responsible Information Practices": {
+      "domain": "Digital",
+      "cluster": "Responsible Information Practices",
+      "min_grade_order": 2,
+      "tier": "operational",
+      "rationale": "Information handling applies from EO upward in most roles."
+    },
+    "Innovation|Conditions for Innovation": {
+      "domain": "Innovation",
+      "cluster": "Conditions for Innovation",
+      "min_grade_order": 2,
+      "tier": "operational",
+      "rationale": "Team climate and adaptability are relevant from EO+."
+    },
+    "Innovation|Understanding the Problem": {
+      "domain": "Innovation",
+      "cluster": "Understanding the Problem",
+      "min_grade_order": 3,
+      "tier": "professional",
+      "rationale": "Problem framing and advocacy usually needs HEO+ scope."
+    },
+    "Innovation|Doing the Work": {
+      "domain": "Innovation",
+      "cluster": "Doing the Work",
+      "min_grade_order": 3,
+      "tier": "professional",
+      "rationale": "Testing and prototyping is typically HEO+ or project roles."
+    },
+    "Innovation|Making Change Stick": {
+      "domain": "Innovation",
+      "cluster": "Making Change Stick",
+      "min_grade_order": 4,
+      "tier": "leadership",
+      "rationale": "Embedding innovation at scale assumes SEO+ influence."
+    }
+  },
+  "questionOverrides": {
+    "data|data-driven-decision-making|analysing-data|knowledge|0": {
+      "question_id": "data|data-driven-decision-making|analysing-data|knowledge|0",
+      "min_grade_order": 2,
+      "tier": "operational",
+      "note": "Basic analytical awareness can be relevant to EO policy and delivery roles."
+    },
+    "digital|digital-transformation|focusing-on-users|knowledge|0": {
+      "question_id": "digital|digital-transformation|focusing-on-users|knowledge|0",
+      "min_grade_order": 2,
+      "tier": "operational",
+      "note": "User needs awareness is useful for EO casework and frontline roles."
+    },
+    "innovation|making-change-stick|embedding-innovation-at-scale|behaviours|0": {
+      "question_id": "innovation|making-change-stick|embedding-innovation-at-scale|behaviours|0",
+      "min_grade_order": 5,
+      "tier": "leadership",
+      "note": "Embedding at scale is G7+; cluster default SEO is still too low for this question."
+    }
+  },
+  "modifiers": {
+    "ddi_centrality": {
+      "minimal": {
+        "ceiling_delta": -1
+      },
+      "adjacent": {
+        "ceiling_delta": 0
+      },
+      "core": {
+        "ceiling_delta": 1
+      },
+      "specialist": {
+        "ceiling_delta": 1,
+        "focus_max_bump": 1
+      }
+    },
+    "influence": {
+      "individual": {
+        "ceiling_delta": -1
+      },
+      "team": {
+        "ceiling_delta": 0
+      },
+      "cross_team": {
+        "ceiling_delta": 1
+      },
+      "organisation": {
+        "ceiling_delta": 1
+      }
+    },
+    "specialist_role": {
+      "yes": {
+        "ceiling_delta": 1
+      },
+      "no": {
+        "ceiling_delta": 0
+      }
+    }
+  },
+  "level_names": [
+    "Novice",
+    "Awareness",
+    "Working",
+    "Practitioner",
+    "Expert"
+  ]
+}

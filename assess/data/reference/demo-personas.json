@@ -1,0 +1,180 @@
+{
+  "intro": "Illustrative progression snapshots — not real assessments. Each persona shows rolled-up maturity at cluster level and across transversal dimensions.",
+  "personas": [
+    {
+      "id": "sam-taylor",
+      "name": "Sam Taylor",
+      "grade_id": "AA_AO",
+      "demonstration_pathway": null,
+      "role_title": "Administrative Officer — LPA caseworker",
+      "organisation": "Office of the Public Guardian, Ministry of Justice",
+      "narrative": "Sam processes lasting power of attorney applications daily — updating records, checking documents and using OPG casework systems. Foundational data and digital skills are at Working where the capability is used every day. Professional clusters are not yet in role scope. Transversal practice is emerging at Awareness–Working: Sam is curious, handles routine enquiries empathetically and follows handling rules carefully.",
+      "interpretation": "Strongest in foundational areas that match everyday casework. Professional and leadership clusters are not in scope at this grade.",
+      "cluster_levels": {
+        "Data|Foundational Data Skills": 3,
+        "AI|Foundational AI Skills": 2,
+        "Digital|Foundational Digital Skills": 2
+      },
+      "transversal_levels": {
+        "systems_thinking": 2,
+        "digital_wellbeing": 2,
+        "ethical_practice": 3,
+        "collaborative_working": 2,
+        "continuous_learning": 2
+      }
+    },
+    {
+      "id": "jordan-chen",
+      "name": "Jordan Chen",
+      "grade_id": "EO",
+      "demonstration_pathway": "leadership",
+      "role_title": "Executive Officer — team coordinator",
+      "organisation": "DWP — benefit processing centre",
+      "narrative": "Jordan coordinates a small team of AOs on daily processing work — allocating tasks, checking quality and supporting new starters. Strength shows in creating conditions for the team to work well and in collaborative, empathetic practice. Knowledge on specialist topics is solid at a working level rather than deep expert authority.",
+      "interpretation": "Strongest in foundational areas that match everyday team coordination. Leading and supporting others — not deepest specialist depth — is the headline.",
+      "cluster_levels": {
+        "Data|Foundational Data Skills": 3,
+        "AI|Foundational AI Skills": 2,
+        "Digital|Foundational Digital Skills": 3,
+        "Digital|Responsible Information Practices": 3,
+        "Innovation|Conditions for Innovation": 4
+      },
+      "transversal_levels": {
+        "systems_thinking": 3,
+        "digital_wellbeing": 4,
+        "ethical_practice": 3,
+        "collaborative_working": 4,
+        "continuous_learning": 3
+      }
+    },
+    {
+      "id": "alex-morrison",
+      "name": "Alex Morrison",
+      "grade_id": "HEO",
+      "demonstration_pathway": "specialist",
+      "role_title": "Higher Executive Officer — policy analyst",
+      "organisation": "HMRC — indirect tax analysis",
+      "narrative": "Alex drafts analysis and briefings using data routinely. The specialist depth pathway shows in Data-Driven Decision Making at Practitioner — colleagues rely on Alex for analytical judgement. Foundational clusters are solid at Working. Innovation and digital transformation are in scope but at Working–Practitioner rather than Expert. Transversals are competent but not the headline.",
+      "interpretation": "Specialist depth evident in analytical clusters. Leadership-tier areas are in scope but not yet at Practitioner.",
+      "cluster_levels": {
+        "Data|Foundational Data Skills": 3,
+        "Data|Data Quality and Integrity": 3,
+        "Data|Data-Driven Decision Making": 4,
+        "Data|Responsible Data Sharing": 3,
+        "AI|Foundational AI Skills": 3,
+        "Digital|Foundational Digital Skills": 3,
+        "Digital|Digital Transformation": 3,
+        "Digital|Responsible Information Practices": 3,
+        "Innovation|Conditions for Innovation": 3,
+        "Innovation|Understanding the Problem": 3,
+        "Innovation|Doing the Work": 3
+      },
+      "transversal_levels": {
+        "systems_thinking": 4,
+        "digital_wellbeing": 3,
+        "ethical_practice": 3,
+        "collaborative_working": 3,
+        "continuous_learning": 3
+      }
+    },
+    {
+      "id": "rina-patel",
+      "name": "Rina Patel",
+      "grade_id": "G7",
+      "demonstration_pathway": "leadership",
+      "role_title": "Grade 7 — digital delivery unit lead",
+      "organisation": "Home Office — service delivery transformation",
+      "narrative": "Rina leads a multidisciplinary unit delivering user-centred digital change. Enabling leadership is the story: transversal practice is strong across wellbeing, collaboration and ethical judgement. Professional knowledge clusters sit at Practitioner — enough to commission experts and challenge well — while Digital Leadership and Making Change Stick show Practitioner maturity through behaviours rather than authoritative technical depth.",
+      "interpretation": "High cross-cutting practice with transversal focus. Domain knowledge is Practitioner-level where influence comes through leadership, not deepest specialist authority.",
+      "cluster_levels": {
+        "Data|Foundational Data Skills": 4,
+        "Data|Data Quality and Integrity": 3,
+        "Data|Data-Driven Decision Making": 4,
+        "Data|Responsible Data Sharing": 3,
+        "AI|Foundational AI Skills": 3,
+        "AI|AI Governance and Ethics": 3,
+        "Digital|Foundational Digital Skills": 4,
+        "Digital|Digital Transformation": 4,
+        "Digital|Digital Leadership": 4,
+        "Digital|Responsible Information Practices": 4,
+        "Innovation|Conditions for Innovation": 4,
+        "Innovation|Understanding the Problem": 4,
+        "Innovation|Doing the Work": 3,
+        "Innovation|Making Change Stick": 4
+      },
+      "transversal_levels": {
+        "systems_thinking": 4,
+        "digital_wellbeing": 4,
+        "ethical_practice": 4,
+        "collaborative_working": 5,
+        "continuous_learning": 4
+      }
+    },
+    {
+      "id": "james-okonkwo",
+      "name": "Dr James Okonkwo",
+      "grade_id": "G6",
+      "demonstration_pathway": "specialist",
+      "role_title": "Grade 6 — Head of Accessibility",
+      "organisation": "Government Digital Service",
+      "narrative": "James is the recognised authority on accessibility standards and inclusive design across government. Specialist depth peaks at Expert on Digital Transformation — authoritative knowledge that colleagues cite. Other clusters sit at Working–Practitioner: competent across DDI & AI but not claiming Expert everywhere. Transversals are solid Practitioner level; James's differentiation is domain depth, not line-management transversal leadership.",
+      "interpretation": "Clear specialist spike in digital transformation and accessibility. A realistic pattern for profession leads — Expert in one area, capable elsewhere.",
+      "cluster_levels": {
+        "Data|Foundational Data Skills": 4,
+        "Data|Data Quality and Integrity": 3,
+        "Data|Data-Driven Decision Making": 3,
+        "Data|Responsible Data Sharing": 3,
+        "AI|Foundational AI Skills": 3,
+        "AI|AI Governance and Ethics": 4,
+        "Digital|Foundational Digital Skills": 4,
+        "Digital|Digital Transformation": 5,
+        "Digital|Digital Leadership": 4,
+        "Digital|Responsible Information Practices": 4,
+        "Innovation|Conditions for Innovation": 3,
+        "Innovation|Understanding the Problem": 3,
+        "Innovation|Doing the Work": 3,
+        "Innovation|Making Change Stick": 4
+      },
+      "transversal_levels": {
+        "systems_thinking": 4,
+        "digital_wellbeing": 3,
+        "ethical_practice": 4,
+        "collaborative_working": 4,
+        "continuous_learning": 4
+      }
+    },
+    {
+      "id": "sarah-williams",
+      "name": "Sarah Williams",
+      "grade_id": "SCS",
+      "demonstration_pathway": "leadership",
+      "role_title": "Senior Civil Service — programme director",
+      "organisation": "Cabinet Office — cross-government digital portfolio",
+      "narrative": "Sarah directs a major cross-government programme. Enabling leadership at Expert: transversal practice is the headline — shaping culture, commissioning specialists and sustaining psychological safety at scale. Authoritative domain knowledge is uneven by design — Practitioner on most knowledge-heavy clusters, Expert on leadership-tier areas where accountability is behavioural and systemic rather than technical.",
+      "interpretation": "Transversal practice at Expert–Practitioner. Domain knowledge deliberately not uniform — listens to experts rather than claiming depth on every strand.",
+      "cluster_levels": {
+        "Data|Foundational Data Skills": 4,
+        "Data|Data Quality and Integrity": 4,
+        "Data|Data-Driven Decision Making": 4,
+        "Data|Responsible Data Sharing": 4,
+        "AI|Foundational AI Skills": 4,
+        "AI|AI Governance and Ethics": 4,
+        "Digital|Foundational Digital Skills": 4,
+        "Digital|Digital Transformation": 4,
+        "Digital|Digital Leadership": 5,
+        "Digital|Responsible Information Practices": 4,
+        "Innovation|Conditions for Innovation": 5,
+        "Innovation|Understanding the Problem": 4,
+        "Innovation|Doing the Work": 4,
+        "Innovation|Making Change Stick": 5
+      },
+      "transversal_levels": {
+        "systems_thinking": 5,
+        "digital_wellbeing": 5,
+        "ethical_practice": 5,
+        "collaborative_working": 5,
+        "continuous_learning": 5
+      }
+    }
+  ]
+}

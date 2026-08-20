@@ -1,0 +1,807 @@
+{
+  "intro": "Learning outcomes describe what someone should be able to do after engaging with courses or materials mapped to this area. They are draft statements for review — not tied to individual assessment questions.",
+  "clusters": [
+    {
+      "key": "Data|Foundational Data Skills",
+      "domain": "Data",
+      "cluster": "Foundational Data Skills",
+      "summary": "Builds the everyday data literacy needed to work confidently with information — reading evidence, handling data responsibly and knowing when to seek help.",
+      "strands": [
+        "Data literacy",
+        "Interpreting visual data",
+        "Managing data lifecycles"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Explain what data are, where they come from in your work, and why quality and context matter for sound decisions."
+        },
+        {
+          "id": "2",
+          "text": "Read common charts, tables and dashboards accurately — identifying trends, limitations and misleading presentation."
+        },
+        {
+          "id": "3",
+          "text": "Apply basic good practice across the data lifecycle (collect, store, share, retain, dispose) in line with organisational policy."
+        },
+        {
+          "id": "4",
+          "text": "Describe how your role contributes to responsible data use and recognise when specialist advice is needed."
+        }
+      ]
+    },
+    {
+      "key": "Data|Data Quality and Integrity",
+      "domain": "Data",
+      "cluster": "Data Quality and Integrity",
+      "summary": "Focuses on trustworthy data — improving accuracy and fitness for purpose while meeting ethical, legal and standards obligations.",
+      "strands": [
+        "Ensuring data quality",
+        "Handling data ethically and lawfully",
+        "Applying data standards"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Assess whether data are fit for purpose (accuracy, completeness, timeliness, representativeness) and document known limitations."
+        },
+        {
+          "id": "2",
+          "text": "Apply ethical and legal principles when collecting, using and sharing data — including privacy, security and fair treatment."
+        },
+        {
+          "id": "3",
+          "text": "Use agreed data standards, definitions and metadata so information stays consistent and interoperable."
+        },
+        {
+          "id": "4",
+          "text": "Challenge poor-quality or inappropriate data use constructively and escalate issues through the right channels."
+        }
+      ]
+    },
+    {
+      "key": "Data|Data-Driven Decision Making",
+      "domain": "Data",
+      "cluster": "Data-Driven Decision Making",
+      "summary": "Turns data into insight — framing questions, analysing evidence and communicating findings that support better decisions.",
+      "strands": [
+        "Analysing data"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Frame clear questions that data can help answer and identify what evidence would strengthen a decision."
+        },
+        {
+          "id": "2",
+          "text": "Apply appropriate analytical approaches to explore patterns, test assumptions and surface actionable insight."
+        },
+        {
+          "id": "3",
+          "text": "Communicate findings accessibly — separating fact from interpretation and stating uncertainty honestly."
+        },
+        {
+          "id": "4",
+          "text": "Recommend evidence-based actions and explain trade-offs when data are incomplete or inconclusive."
+        }
+      ]
+    },
+    {
+      "key": "Data|Responsible Data Sharing",
+      "domain": "Data",
+      "cluster": "Responsible Data Sharing",
+      "summary": "Enables safe collaboration — sharing and reusing data across teams and organisations for public value without compromising rights or trust.",
+      "strands": [
+        "Collaborating with data"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Identify opportunities to share or reuse data that deliver public benefit while respecting legal and ethical duties."
+        },
+        {
+          "id": "2",
+          "text": "Apply proportionate governance — agreements, access controls and audit — when collaborating across boundaries."
+        },
+        {
+          "id": "3",
+          "text": "Assess re-identification and misuse risks before sharing and choose safer alternatives where risks are high."
+        },
+        {
+          "id": "4",
+          "text": "Work effectively with data owners, legal and security colleagues to enable lawful, ethical reuse."
+        }
+      ]
+    },
+    {
+      "key": "AI|Foundational AI Skills",
+      "domain": "AI",
+      "cluster": "Foundational AI Skills",
+      "summary": "Builds practical AI literacy and safe everyday use — understanding what AI can and cannot do, spotting opportunities, using approved tools responsibly, and knowing when to stop or escalate.",
+      "strands": [
+        "AI literacy",
+        "Assessing AI opportunities",
+        "Using AI safely"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Explain in plain language what AI and automation are, including common types (e.g. prediction, classification, generative AI), how they differ from conventional software, and common limitations."
+        },
+        {
+          "id": "2",
+          "text": "Recognise where AI could improve efficiency or outcomes — and where human judgement must remain central."
+        },
+        {
+          "id": "3",
+          "text": "Know which AI tools are approved for your work, what data can safely be shared with them, and follow organisational guidance when using them."
+        },
+        {
+          "id": "4",
+          "text": "Spot when a prompt or task carries a safety risk, adjust or stop before proceeding, and escalate concerns to the right person when something feels wrong."
+        },
+        {
+          "id": "5",
+          "text": "Identify unreliable AI output and know when to verify, reject or escalate before acting on results."
+        }
+      ]
+    },
+    {
+      "key": "AI|AI Governance and Ethics",
+      "domain": "AI",
+      "cluster": "AI Governance and Ethics",
+      "summary": "Ensures AI is used lawfully, ethically and accountably — interpreting outputs critically and applying governance that protects citizens and the organisation.",
+      "strands": [
+        "Interpreting AI outputs",
+        "Applying AI governance",
+        "Using AI responsibly and ethically"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Critically evaluate AI outputs for accuracy, bias and fitness for purpose before acting on or sharing them."
+        },
+        {
+          "id": "2",
+          "text": "Apply relevant legal and regulatory requirements to AI use in your context (equality, transparency, procurement and records)."
+        },
+        {
+          "id": "3",
+          "text": "Document decisions about AI use — including human oversight, disclosure to citizens and proportionate risk acceptance."
+        },
+        {
+          "id": "4",
+          "text": "Challenge unethical or non-compliant AI proposals and support governance controls that match the level of risk."
+        }
+      ]
+    },
+    {
+      "key": "Digital|Foundational Digital Skills",
+      "domain": "Digital",
+      "cluster": "Foundational Digital Skills",
+      "summary": "Covers everyday digital confidence — choosing digital tools, working securely and creating accessible digital content that colleagues and citizens can use.",
+      "strands": [
+        "Using digital tools effectively",
+        "Choosing the right digital tools",
+        "Creating accessible digital content"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Use core digital tools (documents, collaboration, calendars, messaging) efficiently and securely for routine tasks."
+        },
+        {
+          "id": "2",
+          "text": "Select appropriate digital channels and formats for a task, considering audience, security and record-keeping needs."
+        },
+        {
+          "id": "3",
+          "text": "Create digital content that meets accessibility standards and plain-language expectations."
+        },
+        {
+          "id": "4",
+          "text": "Manage your digital footprint responsibly — device hygiene, credentials and recognising common scams or phishing."
+        }
+      ]
+    },
+    {
+      "key": "Digital|Digital Transformation",
+      "domain": "Digital",
+      "cluster": "Digital Transformation",
+      "summary": "Designs and improves services around user needs — researching, iterating and delivering change that works for diverse audiences.",
+      "strands": [
+        "Focusing on users",
+        "Making digital services work for everyone"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Map user journeys and pain points for a service or process and identify where digital could improve outcomes."
+        },
+        {
+          "id": "2",
+          "text": "Apply user research and feedback methods proportionate to the scale and risk of change."
+        },
+        {
+          "id": "3",
+          "text": "Design or improve services iteratively, testing with diverse users and refining based on evidence."
+        },
+        {
+          "id": "4",
+          "text": "Balance pace of delivery with inclusion — ensuring changes work for assisted-digital and non-digital users."
+        }
+      ]
+    },
+    {
+      "key": "Digital|Digital Leadership",
+      "domain": "Digital",
+      "cluster": "Digital Leadership",
+      "summary": "Leads teams in a digital age — building capability, managing transition and aligning digital ambition with organisational priorities.",
+      "strands": [
+        "Leading in a digital age"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Articulate how digital, data and AI can improve team outcomes in line with organisational priorities."
+        },
+        {
+          "id": "2",
+          "text": "Build team capability and confidence through coaching, role modelling and removing barriers to good practice."
+        },
+        {
+          "id": "3",
+          "text": "Manage change associated with technology adoption — expectations, training and transition from legacy ways of working."
+        },
+        {
+          "id": "4",
+          "text": "Make informed trade-offs between innovation, risk, cost and inclusion when championing technology-enabled change."
+        }
+      ]
+    },
+    {
+      "key": "Digital|Responsible Information Practices",
+      "domain": "Digital",
+      "cluster": "Responsible Information Practices",
+      "summary": "Keeps information accurate, current and well governed — knowing provenance, applying controls and correcting mistakes promptly.",
+      "strands": [
+        "Handling information accurately and responsibly"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Verify information sources, version control and ownership before using or publishing content."
+        },
+        {
+          "id": "2",
+          "text": "Apply records management and retention requirements appropriate to your role and information type."
+        },
+        {
+          "id": "3",
+          "text": "Handle personal and sensitive information in line with classification, need-to-know and secure-sharing rules."
+        },
+        {
+          "id": "4",
+          "text": "Correct errors promptly and transparently when inaccurate information has been shared."
+        }
+      ]
+    },
+    {
+      "key": "Innovation|Conditions for Innovation",
+      "domain": "Innovation",
+      "cluster": "Conditions for Innovation",
+      "summary": "Creates the environment where innovation can happen — psychological safety, adaptability and openness to learning from failure.",
+      "strands": [
+        "Psychological safety and adaptability"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Contribute to a team climate where people can raise ideas, experiment and learn from setbacks without blame."
+        },
+        {
+          "id": "2",
+          "text": "Respond constructively to change and uncertainty — adapting plans when evidence or context shifts."
+        },
+        {
+          "id": "3",
+          "text": "Recognise personal and team habits that help or hinder innovation and take practical steps to improve them."
+        },
+        {
+          "id": "4",
+          "text": "Balance delivery pressure with space for exploration proportionate to the problem you are solving."
+        }
+      ]
+    },
+    {
+      "key": "Innovation|Understanding the Problem",
+      "domain": "Innovation",
+      "cluster": "Understanding the Problem",
+      "summary": "Gets to the root of challenges before jumping to solutions — spotting opportunities and building empathy with users.",
+      "strands": [
+        "Identifying innovation opportunities"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Identify problems and opportunities worth solving by combining user insight, data and organisational context."
+        },
+        {
+          "id": "2",
+          "text": "Frame problems clearly — distinguishing symptoms from causes and defining success in outcome terms."
+        }
+      ]
+    },
+    {
+      "key": "Innovation|Doing the Work",
+      "domain": "Innovation",
+      "cluster": "Doing the Work",
+      "summary": "Navigates the innovation lifecycle, tests ideas in the real world and communicates results to build support for change.",
+      "strands": [
+        "Using the innovation lifecycle",
+        "Testing and prototyping",
+        "Storytelling and advocacy"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Navigate the stages of the innovation lifecycle and use evidence to decide when to refine, stop or scale a solution."
+        },
+        {
+          "id": "2",
+          "text": "Design small, low-risk experiments that test the riskiest assumptions behind an idea."
+        },
+        {
+          "id": "3",
+          "text": "Create prototypes (paper, digital or process) that help stakeholders experience and critique a proposed solution."
+        },
+        {
+          "id": "4",
+          "text": "Gather structured feedback from users and colleagues and use it to refine or pivot proposals."
+        },
+        {
+          "id": "5",
+          "text": "Document what was learned from testing — including reasons to stop, change direction or proceed."
+        },
+        {
+          "id": "6",
+          "text": "Tell compelling stories that connect user need, evidence and proposed change for decision-makers and stakeholders."
+        },
+        {
+          "id": "7",
+          "text": "Build coalitions for change by listening, addressing concerns and aligning proposals with wider priorities."
+        }
+      ]
+    },
+    {
+      "key": "Innovation|Making Change Stick",
+      "domain": "Innovation",
+      "cluster": "Making Change Stick",
+      "summary": "Sustains improvement over time — embedding new ways of working, spreading good practice and measuring what matters.",
+      "strands": [
+        "Continuous improvement",
+        "Embedding innovation at scale"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Establish routines for reviewing performance and acting on feedback after a change goes live."
+        },
+        {
+          "id": "2",
+          "text": "Spread successful approaches beyond the initial pilot through documentation, coaching and communities of practice."
+        },
+        {
+          "id": "3",
+          "text": "Identify barriers to adoption (skills, incentives, process, technology) and address them proportionately."
+        },
+        {
+          "id": "4",
+          "text": "Define simple measures that show whether a change is delivering intended outcomes and adjust accordingly."
+        }
+      ]
+    }
+  ],
+  "byKey": {
+    "Data|Foundational Data Skills": {
+      "key": "Data|Foundational Data Skills",
+      "domain": "Data",
+      "cluster": "Foundational Data Skills",
+      "summary": "Builds the everyday data literacy needed to work confidently with information — reading evidence, handling data responsibly and knowing when to seek help.",
+      "strands": [
+        "Data literacy",
+        "Interpreting visual data",
+        "Managing data lifecycles"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Explain what data are, where they come from in your work, and why quality and context matter for sound decisions."
+        },
+        {
+          "id": "2",
+          "text": "Read common charts, tables and dashboards accurately — identifying trends, limitations and misleading presentation."
+        },
+        {
+          "id": "3",
+          "text": "Apply basic good practice across the data lifecycle (collect, store, share, retain, dispose) in line with organisational policy."
+        },
+        {
+          "id": "4",
+          "text": "Describe how your role contributes to responsible data use and recognise when specialist advice is needed."
+        }
+      ]
+    },
+    "Data|Data Quality and Integrity": {
+      "key": "Data|Data Quality and Integrity",
+      "domain": "Data",
+      "cluster": "Data Quality and Integrity",
+      "summary": "Focuses on trustworthy data — improving accuracy and fitness for purpose while meeting ethical, legal and standards obligations.",
+      "strands": [
+        "Ensuring data quality",
+        "Handling data ethically and lawfully",
+        "Applying data standards"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Assess whether data are fit for purpose (accuracy, completeness, timeliness, representativeness) and document known limitations."
+        },
+        {
+          "id": "2",
+          "text": "Apply ethical and legal principles when collecting, using and sharing data — including privacy, security and fair treatment."
+        },
+        {
+          "id": "3",
+          "text": "Use agreed data standards, definitions and metadata so information stays consistent and interoperable."
+        },
+        {
+          "id": "4",
+          "text": "Challenge poor-quality or inappropriate data use constructively and escalate issues through the right channels."
+        }
+      ]
+    },
+    "Data|Data-Driven Decision Making": {
+      "key": "Data|Data-Driven Decision Making",
+      "domain": "Data",
+      "cluster": "Data-Driven Decision Making",
+      "summary": "Turns data into insight — framing questions, analysing evidence and communicating findings that support better decisions.",
+      "strands": [
+        "Analysing data"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Frame clear questions that data can help answer and identify what evidence would strengthen a decision."
+        },
+        {
+          "id": "2",
+          "text": "Apply appropriate analytical approaches to explore patterns, test assumptions and surface actionable insight."
+        },
+        {
+          "id": "3",
+          "text": "Communicate findings accessibly — separating fact from interpretation and stating uncertainty honestly."
+        },
+        {
+          "id": "4",
+          "text": "Recommend evidence-based actions and explain trade-offs when data are incomplete or inconclusive."
+        }
+      ]
+    },
+    "Data|Responsible Data Sharing": {
+      "key": "Data|Responsible Data Sharing",
+      "domain": "Data",
+      "cluster": "Responsible Data Sharing",
+      "summary": "Enables safe collaboration — sharing and reusing data across teams and organisations for public value without compromising rights or trust.",
+      "strands": [
+        "Collaborating with data"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Identify opportunities to share or reuse data that deliver public benefit while respecting legal and ethical duties."
+        },
+        {
+          "id": "2",
+          "text": "Apply proportionate governance — agreements, access controls and audit — when collaborating across boundaries."
+        },
+        {
+          "id": "3",
+          "text": "Assess re-identification and misuse risks before sharing and choose safer alternatives where risks are high."
+        },
+        {
+          "id": "4",
+          "text": "Work effectively with data owners, legal and security colleagues to enable lawful, ethical reuse."
+        }
+      ]
+    },
+    "AI|Foundational AI Skills": {
+      "key": "AI|Foundational AI Skills",
+      "domain": "AI",
+      "cluster": "Foundational AI Skills",
+      "summary": "Builds practical AI literacy and safe everyday use — understanding what AI can and cannot do, spotting opportunities, using approved tools responsibly, and knowing when to stop or escalate.",
+      "strands": [
+        "AI literacy",
+        "Assessing AI opportunities",
+        "Using AI safely"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Explain in plain language what AI and automation are, including common types (e.g. prediction, classification, generative AI), how they differ from conventional software, and common limitations."
+        },
+        {
+          "id": "2",
+          "text": "Recognise where AI could improve efficiency or outcomes — and where human judgement must remain central."
+        },
+        {
+          "id": "3",
+          "text": "Know which AI tools are approved for your work, what data can safely be shared with them, and follow organisational guidance when using them."
+        },
+        {
+          "id": "4",
+          "text": "Spot when a prompt or task carries a safety risk, adjust or stop before proceeding, and escalate concerns to the right person when something feels wrong."
+        },
+        {
+          "id": "5",
+          "text": "Identify unreliable AI output and know when to verify, reject or escalate before acting on results."
+        }
+      ]
+    },
+    "AI|AI Governance and Ethics": {
+      "key": "AI|AI Governance and Ethics",
+      "domain": "AI",
+      "cluster": "AI Governance and Ethics",
+      "summary": "Ensures AI is used lawfully, ethically and accountably — interpreting outputs critically and applying governance that protects citizens and the organisation.",
+      "strands": [
+        "Interpreting AI outputs",
+        "Applying AI governance",
+        "Using AI responsibly and ethically"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Critically evaluate AI outputs for accuracy, bias and fitness for purpose before acting on or sharing them."
+        },
+        {
+          "id": "2",
+          "text": "Apply relevant legal and regulatory requirements to AI use in your context (equality, transparency, procurement and records)."
+        },
+        {
+          "id": "3",
+          "text": "Document decisions about AI use — including human oversight, disclosure to citizens and proportionate risk acceptance."
+        },
+        {
+          "id": "4",
+          "text": "Challenge unethical or non-compliant AI proposals and support governance controls that match the level of risk."
+        }
+      ]
+    },
+    "Digital|Foundational Digital Skills": {
+      "key": "Digital|Foundational Digital Skills",
+      "domain": "Digital",
+      "cluster": "Foundational Digital Skills",
+      "summary": "Covers everyday digital confidence — choosing digital tools, working securely and creating accessible digital content that colleagues and citizens can use.",
+      "strands": [
+        "Using digital tools effectively",
+        "Choosing the right digital tools",
+        "Creating accessible digital content"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Use core digital tools (documents, collaboration, calendars, messaging) efficiently and securely for routine tasks."
+        },
+        {
+          "id": "2",
+          "text": "Select appropriate digital channels and formats for a task, considering audience, security and record-keeping needs."
+        },
+        {
+          "id": "3",
+          "text": "Create digital content that meets accessibility standards and plain-language expectations."
+        },
+        {
+          "id": "4",
+          "text": "Manage your digital footprint responsibly — device hygiene, credentials and recognising common scams or phishing."
+        }
+      ]
+    },
+    "Digital|Digital Transformation": {
+      "key": "Digital|Digital Transformation",
+      "domain": "Digital",
+      "cluster": "Digital Transformation",
+      "summary": "Designs and improves services around user needs — researching, iterating and delivering change that works for diverse audiences.",
+      "strands": [
+        "Focusing on users",
+        "Making digital services work for everyone"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Map user journeys and pain points for a service or process and identify where digital could improve outcomes."
+        },
+        {
+          "id": "2",
+          "text": "Apply user research and feedback methods proportionate to the scale and risk of change."
+        },
+        {
+          "id": "3",
+          "text": "Design or improve services iteratively, testing with diverse users and refining based on evidence."
+        },
+        {
+          "id": "4",
+          "text": "Balance pace of delivery with inclusion — ensuring changes work for assisted-digital and non-digital users."
+        }
+      ]
+    },
+    "Digital|Digital Leadership": {
+      "key": "Digital|Digital Leadership",
+      "domain": "Digital",
+      "cluster": "Digital Leadership",
+      "summary": "Leads teams in a digital age — building capability, managing transition and aligning digital ambition with organisational priorities.",
+      "strands": [
+        "Leading in a digital age"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Articulate how digital, data and AI can improve team outcomes in line with organisational priorities."
+        },
+        {
+          "id": "2",
+          "text": "Build team capability and confidence through coaching, role modelling and removing barriers to good practice."
+        },
+        {
+          "id": "3",
+          "text": "Manage change associated with technology adoption — expectations, training and transition from legacy ways of working."
+        },
+        {
+          "id": "4",
+          "text": "Make informed trade-offs between innovation, risk, cost and inclusion when championing technology-enabled change."
+        }
+      ]
+    },
+    "Digital|Responsible Information Practices": {
+      "key": "Digital|Responsible Information Practices",
+      "domain": "Digital",
+      "cluster": "Responsible Information Practices",
+      "summary": "Keeps information accurate, current and well governed — knowing provenance, applying controls and correcting mistakes promptly.",
+      "strands": [
+        "Handling information accurately and responsibly"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Verify information sources, version control and ownership before using or publishing content."
+        },
+        {
+          "id": "2",
+          "text": "Apply records management and retention requirements appropriate to your role and information type."
+        },
+        {
+          "id": "3",
+          "text": "Handle personal and sensitive information in line with classification, need-to-know and secure-sharing rules."
+        },
+        {
+          "id": "4",
+          "text": "Correct errors promptly and transparently when inaccurate information has been shared."
+        }
+      ]
+    },
+    "Innovation|Conditions for Innovation": {
+      "key": "Innovation|Conditions for Innovation",
+      "domain": "Innovation",
+      "cluster": "Conditions for Innovation",
+      "summary": "Creates the environment where innovation can happen — psychological safety, adaptability and openness to learning from failure.",
+      "strands": [
+        "Psychological safety and adaptability"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Contribute to a team climate where people can raise ideas, experiment and learn from setbacks without blame."
+        },
+        {
+          "id": "2",
+          "text": "Respond constructively to change and uncertainty — adapting plans when evidence or context shifts."
+        },
+        {
+          "id": "3",
+          "text": "Recognise personal and team habits that help or hinder innovation and take practical steps to improve them."
+        },
+        {
+          "id": "4",
+          "text": "Balance delivery pressure with space for exploration proportionate to the problem you are solving."
+        }
+      ]
+    },
+    "Innovation|Understanding the Problem": {
+      "key": "Innovation|Understanding the Problem",
+      "domain": "Innovation",
+      "cluster": "Understanding the Problem",
+      "summary": "Gets to the root of challenges before jumping to solutions — spotting opportunities and building empathy with users.",
+      "strands": [
+        "Identifying innovation opportunities"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Identify problems and opportunities worth solving by combining user insight, data and organisational context."
+        },
+        {
+          "id": "2",
+          "text": "Frame problems clearly — distinguishing symptoms from causes and defining success in outcome terms."
+        }
+      ]
+    },
+    "Innovation|Doing the Work": {
+      "key": "Innovation|Doing the Work",
+      "domain": "Innovation",
+      "cluster": "Doing the Work",
+      "summary": "Navigates the innovation lifecycle, tests ideas in the real world and communicates results to build support for change.",
+      "strands": [
+        "Using the innovation lifecycle",
+        "Testing and prototyping",
+        "Storytelling and advocacy"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Navigate the stages of the innovation lifecycle and use evidence to decide when to refine, stop or scale a solution."
+        },
+        {
+          "id": "2",
+          "text": "Design small, low-risk experiments that test the riskiest assumptions behind an idea."
+        },
+        {
+          "id": "3",
+          "text": "Create prototypes (paper, digital or process) that help stakeholders experience and critique a proposed solution."
+        },
+        {
+          "id": "4",
+          "text": "Gather structured feedback from users and colleagues and use it to refine or pivot proposals."
+        },
+        {
+          "id": "5",
+          "text": "Document what was learned from testing — including reasons to stop, change direction or proceed."
+        },
+        {
+          "id": "6",
+          "text": "Tell compelling stories that connect user need, evidence and proposed change for decision-makers and stakeholders."
+        },
+        {
+          "id": "7",
+          "text": "Build coalitions for change by listening, addressing concerns and aligning proposals with wider priorities."
+        }
+      ]
+    },
+    "Innovation|Making Change Stick": {
+      "key": "Innovation|Making Change Stick",
+      "domain": "Innovation",
+      "cluster": "Making Change Stick",
+      "summary": "Sustains improvement over time — embedding new ways of working, spreading good practice and measuring what matters.",
+      "strands": [
+        "Continuous improvement",
+        "Embedding innovation at scale"
+      ],
+      "outcomes": [
+        {
+          "id": "1",
+          "text": "Establish routines for reviewing performance and acting on feedback after a change goes live."
+        },
+        {
+          "id": "2",
+          "text": "Spread successful approaches beyond the initial pilot through documentation, coaching and communities of practice."
+        },
+        {
+          "id": "3",
+          "text": "Identify barriers to adoption (skills, incentives, process, technology) and address them proportionately."
+        },
+        {
+          "id": "4",
+          "text": "Define simple measures that show whether a change is delivering intended outcomes and adjust accordingly."
+        }
+      ]
+    }
+  }
+}

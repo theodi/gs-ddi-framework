@@ -1,0 +1,192 @@
+{
+  "id": "ddi-ai-wcag-22-aa-2026-08-13",
+  "title": "WCAG 2.2 AA technical audit: DDI & AI skills and capabilities framework",
+  "standard": "WCAG 2.2 Level AA",
+  "date": "2026-08-13",
+  "organisation": "Open Data Institute",
+  "licence": "OGL-UK-3.0",
+  "contact": "training@theodi.org",
+  "method": {
+    "automated": "axe-core 4.13.0 in Playwright Chromium, WCAG 2 A/AA, 2.1 A/AA and 2.2 AA tags, plus best-practice rules",
+    "manual": "Structured review of WCAG 2.2 AA, including 2.2-only criteria, landmarks, forms, no-JavaScript, reflow at 320px, and colour contrast",
+    "not_included": [
+      "Screen reader user testing (NVDA, VoiceOver, JAWS)",
+      "Windows High Contrast",
+      "Formal 200% zoom sign-off with assistive technology users"
+    ]
+  },
+  "products": [
+    {
+      "id": "publication",
+      "name": "Framework publication and data downloads",
+      "paths": [
+        "/",
+        "/framework/",
+        "/data/",
+        "/accessibility.html",
+        "/privacy.html",
+        "/contact.html"
+      ],
+      "verdict": "meets_wcag_22_aa",
+      "verdict_label": "Meets WCAG 2.2 AA (technical audit)",
+      "in_statement_scope": true,
+      "axe_wcag_violations": 0,
+      "axe_best_practice_violations_after_fix": 0,
+      "notes": "HTML guides and CSV/JSON downloads. Content is readable without JavaScript. Skip link, menu and help links are in the HTML. Signed off on this technical audit; not yet user-tested with assistive technology."
+    },
+    {
+      "id": "prototype",
+      "name": "Self-assessment prototype",
+      "paths": ["/assess/"],
+      "verdict": "does_not_meet_wcag_22_aa",
+      "verdict_label": "Does not meet WCAG 2.2 AA",
+      "in_statement_scope": false,
+      "axe_wcag_violations": 0,
+      "notes": "JavaScript prototype, not a live government service. You cannot start or continue an assessment without JavaScript. Out of scope for the publication accessibility statement."
+    }
+  ],
+  "pages": [
+    { "id": "pub-home", "path": "/", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-accessibility", "path": "/accessibility.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-privacy", "path": "/privacy.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-contact", "path": "/contact.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-data", "path": "/data/", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-digital", "path": "/framework/digital.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-data-domain", "path": "/framework/data.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-innovation", "path": "/framework/innovation.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-ai", "path": "/framework/ai.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-proficiency", "path": "/framework/proficiency.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-roles", "path": "/framework/roles.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "pub-transversals", "path": "/framework/transversals.html", "product": "publication", "axe_wcag_violations": 0 },
+    { "id": "assess-home", "path": "/assess/", "product": "prototype", "axe_wcag_violations": 0 },
+    { "id": "assess-a11y", "path": "/assess/accessibility.html", "product": "prototype", "axe_wcag_violations": 0 },
+    { "id": "assess-privacy", "path": "/assess/privacy.html", "product": "prototype", "axe_wcag_violations": 0 },
+    { "id": "assess-contact", "path": "/assess/contact.html", "product": "prototype", "axe_wcag_violations": 0 },
+    { "id": "assess-list", "path": "/assess/assess.html", "product": "prototype", "axe_wcag_violations": 0 },
+    { "id": "assess-example", "path": "/assess/example.html", "product": "prototype", "axe_wcag_violations": 0 },
+    { "id": "assess-intake", "path": "/assess/assess.html#intake", "product": "prototype", "axe_wcag_violations": 0 },
+    { "id": "pub-home-mobile", "path": "/", "product": "publication", "axe_wcag_violations": 0, "note": "375px viewport" },
+    { "id": "pub-home-320", "path": "/", "product": "publication", "axe_wcag_violations": 0, "note": "320px reflow" },
+    { "id": "pub-data-320", "path": "/data/", "product": "publication", "axe_wcag_violations": 0, "note": "320px reflow" }
+  ],
+  "contrast": [
+    { "pair": "Body #0b0c0c on white", "ratio": 19.59, "aa_normal": true },
+    { "pair": "Link #1d70b8 on white", "ratio": 5.17, "aa_normal": true },
+    { "pair": "White on brand blue", "ratio": 5.17, "aa_normal": true },
+    { "pair": "White on button green #00703c", "ratio": 6.21, "aa_normal": true },
+    { "pair": "Focus text on #ffdd00", "ratio": 14.55, "aa_normal": true },
+    { "pair": "Dark grey #505a5f on white", "ratio": 7.07, "aa_normal": true },
+    { "pair": "Error red #d4351c on white", "ratio": 4.86, "aa_normal": true },
+    { "pair": "Mid-grey #b1b4b6 on white (decorative borders)", "ratio": 2.08, "aa_normal": false, "ui_3_1": false, "note": "Not used as the only indicator for a control. Form inputs use 2px #0b0c0c." }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "product": "prototype",
+      "criterion": "3.3.1",
+      "severity": "serious",
+      "status": "fixed",
+      "summary": "Intake validation wrote errors to a hidden element",
+      "detail": "Errors now show in a role=alert on the form, mark aria-invalid, and focus the first invalid field."
+    },
+    {
+      "id": "F2",
+      "product": "prototype",
+      "criterion": "4.1.3",
+      "severity": "serious",
+      "status": "fixed",
+      "summary": "Loading and error status were not announced",
+      "detail": "Boot, report and chat status use aria-live polite or role=alert."
+    },
+    {
+      "id": "F3",
+      "product": "publication",
+      "criterion": "1.3.1",
+      "severity": "serious",
+      "status": "fixed",
+      "summary": "Pages used a div instead of main, and skip/help were JavaScript-only",
+      "detail": "Publication pages now use main, a skip link, and a noscript menu with accessibility, privacy and contact links."
+    },
+    {
+      "id": "F4",
+      "product": "prototype",
+      "criterion": "2.4.1",
+      "severity": "serious",
+      "status": "fixed",
+      "summary": "Skip to content included the assessment sidebar",
+      "detail": "Skip target moves with the view: list, intake, or main pane."
+    },
+    {
+      "id": "F5",
+      "product": "prototype",
+      "criterion": "2.1.1",
+      "severity": "serious",
+      "status": "remaining",
+      "summary": "The assessment cannot be completed without JavaScript",
+      "detail": "A noscript message explains this and links to the HTML framework. Starting an assessment still needs JavaScript. This is why the prototype is not signed off."
+    },
+    {
+      "id": "F6",
+      "product": "prototype",
+      "criterion": "1.3.5",
+      "severity": "moderate",
+      "status": "fixed",
+      "summary": "Organisation and role inputs lacked autocomplete",
+      "detail": "Fields now use autocomplete name, organization-title and organization."
+    },
+    {
+      "id": "F7",
+      "product": "prototype",
+      "criterion": "3.3.2",
+      "severity": "moderate",
+      "status": "fixed",
+      "summary": "Required fields were not identified",
+      "detail": "Intake and profile state that fields are required. Hints are tied with aria-describedby."
+    },
+    {
+      "id": "F8",
+      "product": "prototype",
+      "criterion": "1.1.1",
+      "severity": "moderate",
+      "status": "fixed",
+      "summary": "Radar chart had no text alternative for the scores",
+      "detail": "Chart is decorative. Broader skill levels are listed as text next to it."
+    },
+    {
+      "id": "F9",
+      "product": "publication",
+      "criterion": "3.2.6",
+      "severity": "moderate",
+      "status": "fixed",
+      "summary": "Contact was a placeholder, so consistent help was incomplete",
+      "detail": "Contact is training@theodi.org on publication and prototype contact pages."
+    },
+    {
+      "id": "F10",
+      "product": "prototype",
+      "criterion": "2.5.8",
+      "severity": "moderate",
+      "status": "fixed",
+      "summary": "Some navigation targets were under 24px tall",
+      "detail": "Service navigation links and the Menu control now have a minimum 24px hit area (Menu 44px)."
+    },
+    {
+      "id": "N4",
+      "product": "prototype",
+      "criterion": "2.4.11",
+      "severity": "low",
+      "status": "remaining",
+      "summary": "Sticky wizard footer may obscure a focused field",
+      "detail": "Extra padding exists on the scroll area. Not retested with every keyboard path. Does not affect the signed-off publication."
+    },
+    {
+      "id": "N5",
+      "product": "publication",
+      "criterion": "1.4.11",
+      "severity": "low",
+      "status": "accepted",
+      "summary": "Card and table borders use mid-grey at 2.08:1",
+      "detail": "Decorative only. Inputs use 2px black borders. Accepted for the publication sign-off."
+    }
+  ]
+}

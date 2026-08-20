@@ -1,0 +1,99 @@
+{
+  "intro": "Proficiency levels describe maturity in Knowledge (what you know), Skills (what you can do) and Behaviours (how you act). This is a maturity framework: levels describe what strong performance looks like at each stage, not a minimum pass mark. The level someone can demonstrate still depends on role scope — but many civil servants influence colleagues, improve team practice or shape how work is done without formal coaching titles.",
+  "section_types": {
+    "knowledge": "What you understand — concepts, principles and why they matter. Authoritative knowledge at Expert level signals specialist depth, not a requirement for every role.",
+    "skills": "What you can apply — practice in real tasks and situations.",
+    "behaviours": "How you act — habits, judgement and influence visible to others. Transversal-tagged behaviours are especially important for enabling leadership."
+  },
+  "demonstration_pathways": {
+    "intro": "At Practitioner and Expert, the same level number can be reached in two valid ways.",
+    "specialist": {
+      "label": "Specialist depth",
+      "description": "Authoritative knowledge and expert skills in domain strands — from the experienced colleague others rely on at Practitioner through to heads of profession at Expert."
+    },
+    "leadership": {
+      "label": "Enabling leadership",
+      "description": "Strong transversal practice — coaching, psychological safety, ethical judgement, collaboration and learning from failure. This route emerges clearly at Practitioner (team coordinators, workstream leads) and strengthens at Expert. Working–Practitioner knowledge is enough where your job is to commission, challenge well and support experts."
+    },
+    "mixed": {
+      "label": "Mixed remit",
+      "description": "Both patterns apply — for example a G6 profession lead who sets standards in their domain and shapes team culture."
+    }
+  },
+  "guide_summary": "Levels are a maturity ladder, not a pass mark. When you answer questions, transversal maturity will roll up separately — a useful headline for enabling leaders. Role filters show where each level is most meaningfully demonstrated for your grade; your profiler pathway explains which demonstration pattern fits your remit.",
+  "levels": [
+    {
+      "id": 1,
+      "name": "Novice",
+      "knowledge": "Has little or no practical knowledge yet. Can name the topic in broad terms and is beginning to see why it might matter.",
+      "skills": "Cannot apply the capability reliably without direct support. May try with close guidance and makes exploratory first attempts.",
+      "behaviours": "Shows curiosity and motivation to learn. Asks questions and is open to feedback without defensiveness.",
+      "learning": "Needs guided introduction to what the capability is, why it matters and how it contributes to public value.",
+      "typical_roles": "New starters; apprentices; colleagues new to digital, data, innovation or AI in their role; those returning after a long gap.",
+      "maturity_note": "The beginning of the journey — curiosity and willingness to learn matter here. Colleagues move on quickly where the capability is part of everyday work.",
+      "grade_examples": "Apprentices and new starters at any grade; AA/AO colleagues in their first weeks on a new system or process; anyone returning after a career break."
+    },
+    {
+      "id": 2,
+      "name": "Awareness",
+      "knowledge": "Understands what the capability is and why it matters. Can recognise it in use and describe its importance in simple terms.",
+      "skills": "Uses basic elements with support. Identifies simple opportunities where it could improve clarity, efficiency or service quality.",
+      "behaviours": "Engages when encouraged. Tries new approaches with support and reflects on what worked.",
+      "learning": "Benefits from structured learning and practice with examples tied to real work.",
+      "typical_roles": "Operational delivery roles building foundation; administrators and caseworkers establishing reliable everyday practice.",
+      "maturity_note": "A solid foundation — understanding why the capability matters and using basic elements reliably in familiar situations.",
+      "grade_examples": "AA/AO and EO in operational delivery — processing casework, updating records, following handling rules; administrators and contact-centre staff building everyday digital and data confidence."
+    },
+    {
+      "id": 3,
+      "name": "Working",
+      "knowledge": "Understands core concepts and methods. Has reliable knowledge and can explain benefits in the context of their own work.",
+      "skills": "Applies the capability independently in routine tasks. Adapts straightforward approaches to local needs with minimal guidance.",
+      "behaviours": "Demonstrates the capability consistently in everyday work. Takes responsibility for own development and follows agreed standards.",
+      "learning": "Builds capability through ongoing practice and learning; may work toward accreditation where relevant.",
+      "typical_roles": "Policy officers, analysts, delivery staff and operations managers using the capability routinely; the benchmark for competent performance in most civil service roles.",
+      "maturity_note": "Confident independent practice — the maturity target for most civil servants on strands they use every day. A meaningful mark of competence.",
+      "grade_examples": "EO and HEO policy officers, analysts and delivery managers; SEO specialists in routine use; AA/AO and EO at Working on foundational strands such as everyday data, digital tools and AI literacy."
+    },
+    {
+      "id": 4,
+      "name": "Practitioner",
+      "knowledge": "Has detailed understanding including nuances and implications for quality and outcomes. Shares knowledge proactively with colleagues.",
+      "skills": "Uses the capability independently across varied scenarios. Troubleshoots complex issues and improves local practice.",
+      "behaviours": "Coaches and supports others informally. Models good practice and helps colleagues apply standards consistently.",
+      "learning": "Pursues advanced learning where relevant and helps others build confidence and consistency.",
+      "typical_roles": "Where informal influence begins — experienced specialists others rely on, and team coordinators or workstream leads who improve practice around them.",
+      "maturity_note": "Practitioner is where the two routes become visible — you do not need both on every strand.",
+      "demonstration_pathways": {
+        "specialist": {
+          "summary": "The colleague others turn to for domain advice — detailed understanding, troubleshoots harder problems and shares knowledge proactively, without necessarily line-managing anyone.",
+          "grade_examples": "Experienced HEO and SEO policy officers, analysts and delivery specialists; G7 lead specialists in their area; colleagues relied on for technical or professional judgement."
+        },
+        "leadership": {
+          "summary": "Improves how the team works with a transversal focus — strongest on cross-cutting skills and behaviours such as psychological safety, collaboration, ethical judgement and learning from failure. Coaches informally, models standards and supports new starters. Working-level domain knowledge is enough where influence comes through transversal practice.",
+          "grade_examples": "EO and SEO team coordinators and workstream leads; G7 deputies and unit heads; colleagues who brief others, check quality and help the team apply standards consistently."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Expert",
+      "knowledge": "Holds authoritative expertise with insight into strategic value and system-level implications. Recognised as a trusted source of guidance in your domain.",
+      "skills": "Leads application across teams or services. Influences standards, governance or practice and drives improvement at scale.",
+      "behaviours": "Shapes culture and expectations. Champions responsible practice and develops capability in others systematically.",
+      "learning": "Undertakes specialist ongoing learning and uses expertise to elevate organisational capability and future practice.",
+      "typical_roles": "Heads of profession, lead specialists, programme and function directors, G6+ leaders with authority to set direction, and cross-government leads.",
+      "maturity_note": "Expert is one level with two valid demonstration patterns — you do not need both on every strand.",
+      "demonstration_pathways": {
+        "specialist": {
+          "summary": "Authoritative depth in domain knowledge and skills — sets standards, governs practice and is the person others cite for technical or professional guidance.",
+          "grade_examples": "G6 and G7 heads of profession and lead specialists; cross-government profession leads; principal analysts and technical authorities on accessibility, data, AI or digital delivery."
+        },
+        "leadership": {
+          "summary": "Shapes culture and systems with a transversal focus — the strongest evidence is on cross-cutting skills and behaviours across systems thinking, digital wellbeing, ethical practice, collaboration and continuous learning. Listens to experts, creates psychological safety, commissions well and protects space for innovation without substituting for specialist depth on every strand.",
+          "grade_examples": "G6 programme and function directors; SCS leaders accountable for outcomes and culture; G7 line managers who enable innovation by supporting experts and modelling learning from failure."
+        }
+      }
+    }
+  ]
+}

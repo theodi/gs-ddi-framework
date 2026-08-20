@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example assessment: DDI & AI</title>
+  <link rel="stylesheet" href="css/gds-base.css">
+  <link rel="stylesheet" href="css/assess-view.css">
+</head>
+<body class="assess-shell-body gds-surface" data-assess-demo="true">
+  <a class="app-skip-link" href="#assess-boot" id="skip-link">Skip to main content</a>
+  <noscript>
+    <div class="app-noscript">
+      <p>This prototype needs JavaScript to run an assessment. You can still read the <a href="../index.html">framework</a> and <a href="../data/">get the data</a>.</p>
+      <nav aria-label="Menu">
+        <ul>
+          <li><a href="../index.html">The framework</a></li>
+          <li><a href="../data/">Get the data</a></li>
+          <li><a href="index.html">Self-assessment prototype</a></li>
+        </ul>
+      </nav>
+      <ul>
+        <li><a href="accessibility.html">Accessibility statement</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </noscript>
+  <div id="assess-app">
+  <main id="assess-boot" class="assess-boot" tabindex="-1">
+    <p id="assess-boot-msg" role="status" aria-live="polite">Loading…</p>
+    <p id="assess-boot-error" class="assess-error" role="alert" hidden></p>
+  </main>
+
+  <!-- Assessments list (no session open) -->
+  <main id="view-list" class="page-frame assess-list-page" hidden tabindex="-1">
+    <div class="assess-list-header">
+      <a href="index.html" class="assess-back-link">← Self-assessment home</a>
+      <h1 class="assess-hero-name">Your assessments</h1>
+      <p class="assess-lead">Continue where you left off or start a new self-assessment.</p>
+    </div>
+    <div id="session-list" class="assess-session-list"></div>
+    <button type="button" id="btn-new-assessment" class="btn btn-primary">New assessment</button>
+  </main>
+
+  <!-- New assessment: mandatory profile on one screen -->
+  <main id="view-intake" class="assess-wizard-page" hidden tabindex="-1">
+    <div class="assess-wizard-scroll">
+      <div class="assess-list-header">
+        <button type="button" id="btn-intake-back" class="assess-back-link">← Back to list</button>
+        <h1 class="assess-hero-name">Start your profile</h1>
+        <p class="assess-lead" id="intake-lead">About two minutes, then we open your assessment with questions for your role.</p>
+      </div>
+
+      <form id="intake-form" class="assess-form assess-wizard-form">
+        <div id="intake-step-1" class="assess-wizard-step">
+          <p class="assess-hint" id="intake-required-hint">All fields on this page are required.</p>
+          <p id="intake-error" class="assess-error" role="alert" hidden></p>
+          <label class="assess-label" for="intake-name">What is your name?</label>
+          <input id="intake-name" class="assess-input" type="text" maxlength="120" required aria-required="true" autocomplete="name" aria-describedby="intake-name-hint" placeholder="e.g. Alex Morgan">
+          <p class="assess-field-why" id="intake-name-hint">We use this to name your assessment. Feel free to add to the name so you can tell multiple assessments apart, e.g. John Smith (2026)</p>
+
+          <label class="assess-label" for="intake-grade">What is your civil service grade?</label>
+          <select id="intake-grade" class="assess-select" required aria-required="true" aria-describedby="intake-grade-hint"></select>
+          <p class="assess-field-why" id="intake-grade-hint">Your grade helps filter which questions are relevant to you. You can still tailor the assessment later.</p>
+
+          <div id="intake-pathway-wrap" hidden>
+            <label class="assess-label" for="intake-pathway">Which best describes how you work?</label>
+            <select id="intake-pathway" class="assess-select" aria-describedby="intake-pathway-hint"></select>
+            <p class="assess-field-why" id="intake-pathway-hint">From EO upward: specialist, leadership, or both, so expectations match how you actually demonstrate skills.</p>
+          </div>
+
+          <label class="assess-label" for="intake-role">What do you do?</label>
+          <input id="intake-role" class="assess-input" type="text" maxlength="200" required aria-required="true" autocomplete="organization-title" aria-describedby="intake-role-hint" placeholder="e.g. Policy adviser, casework team lead">
+          <p class="assess-field-why" id="intake-role-hint">Shown on your profile summary. Another way to tell multiple assessments apart.</p>
+
+          <label class="assess-label" for="intake-organisation">Where in government do you work?</label>
+          <input id="intake-organisation" class="assess-input" type="text" maxlength="200" required aria-required="true" autocomplete="organization" aria-describedby="intake-organisation-hint" placeholder="e.g. DWP, HMRC, Home Office">
+          <p class="assess-field-why" id="intake-organisation-hint">Helps label this assessment (for example alongside your name).</p>
+        </div>
+      </form>
+    </div>
+    <div class="assess-wizard-footer">
+      <button type="button" id="intake-next" class="btn btn-primary">Start assessment</button>
+    </div>
+  </main>
+
+  <!-- Three-pane shell -->
+  <div id="view-shell" class="assess-shell" hidden>
+    <div id="demo-banner" class="assess-notification-banner" role="region" aria-labelledby="demo-banner-title" hidden>
+      <div class="assess-notification-banner__header">
+        <h2 class="assess-notification-banner__title" id="demo-banner-title">Important</h2>
+      </div>
+      <div class="assess-notification-banner__content">
+        <p class="assess-notification-banner__heading">This is a demo of a completed assessment you can explore.</p>
+        <p>Look through the questions and report. You cannot change answers.</p>
+      </div>
+    </div>
+    <aside class="assess-nav" aria-label="Assessment navigation">
+      <div class="assess-nav-intro">
+        <h2 class="assess-nav-intro-title" id="nav-areas-heading">Areas</h2>
+        <p class="assess-nav-intro-hint">Open an area to continue your questions, or switch between areas as you work.</p>
+      </div>
+
+      <nav class="assess-nav-sections" aria-labelledby="nav-areas-heading">
+        <div id="nav-domains" class="assess-nav-domains"></div>
+      </nav>
+    </aside>
+
+    <main class="assess-main-pane" id="main-pane" tabindex="-1">
+      <p id="main-error" class="assess-error" role="alert" hidden></p>
+
+      <section id="pane-hub" class="assess-pane assess-hub-pane" hidden>
+        <nav id="hub-breadcrumbs" class="assess-breadcrumbs" aria-label="Breadcrumb"></nav>
+        <h1 class="assess-pane-title" id="hub-title">Your assessment</h1>
+        <p class="assess-lead" id="hub-lead">Complete your details, work through each area, then open your report.</p>
+
+        <section class="assess-hub-section" aria-labelledby="hub-details-heading">
+          <h2 id="hub-details-heading" class="assess-hub-heading">Your details</h2>
+          <dl id="hub-summary" class="assess-summary-list"></dl>
+        </section>
+
+        <section class="assess-hub-section" aria-labelledby="hub-areas-heading">
+          <h2 id="hub-areas-heading" class="assess-hub-heading">Your areas</h2>
+          <ul id="hub-areas" class="assess-task-list"></ul>
+        </section>
+
+        <section class="assess-hub-section" aria-labelledby="hub-report-heading">
+          <h2 id="hub-report-heading" class="assess-hub-heading">Your report</h2>
+          <ul id="hub-report" class="assess-task-list"></ul>
+        </section>
+      </section>
+
+      <section id="pane-profile" class="assess-pane assess-pane--wizard" hidden>
+        <div class="assess-wizard-scroll">
+          <nav id="profile-breadcrumbs" class="assess-breadcrumbs" aria-label="Breadcrumb"></nav>
+          <h1 class="assess-pane-title" id="profile-pane-title">Your profile</h1>
+          <p class="assess-lead" id="profile-pane-lead">Update your details anytime.</p>
+
+          <!-- Read-only summary (demo / case study) -->
+          <div id="profile-readonly" class="assess-profile-readonly" hidden></div>
+
+          <div id="profile-editable">
+            <nav class="assess-stepper assess-stepper--compact" id="prof-stepper" aria-label="Profile steps" hidden>
+              <div class="assess-stepper-step is-active" data-step="1">
+                <span class="assess-stepper-num">1</span>
+                <span class="assess-stepper-label">Your details</span>
+              </div>
+              <div class="assess-stepper-step" data-step="2" hidden>
+                <span class="assess-stepper-num">2</span>
+                <span class="assess-stepper-label">Optional</span>
+              </div>
+            </nav>
+
+            <form id="profile-form" class="assess-form assess-wizard-form">
+              <div id="prof-step-1" class="assess-wizard-step">
+                <p class="assess-hint" id="prof-required-hint">Name, grade, role and organisation are required.</p>
+                <p id="profile-error" class="assess-error" role="alert" hidden></p>
+                <label class="assess-label" for="prof-name">What is your name?</label>
+                <input id="prof-name" class="assess-input" type="text" maxlength="120" required aria-required="true" autocomplete="name" aria-describedby="prof-name-hint" placeholder="e.g. Alex Morgan">
+                <p class="assess-field-why" id="prof-name-hint">We use this to name your assessment. Feel free to add to the name so you can tell multiple assessments apart, e.g. John Smith (2026)</p>
+
+                <label class="assess-label" for="prof-grade">What is your civil service grade?</label>
+                <select id="prof-grade" class="assess-select" required aria-required="true" aria-describedby="prof-grade-hint"></select>
+                <p class="assess-field-why" id="prof-grade-hint">Your grade helps filter which questions are relevant to you. You can still tailor the assessment later.</p>
+                <div id="prof-pathway-wrap" hidden>
+                  <label class="assess-label" for="prof-pathway">Which best describes how you work?</label>
+                  <select id="prof-pathway" class="assess-select" aria-describedby="prof-pathway-hint"></select>
+                  <p class="assess-field-why" id="prof-pathway-hint">From EO upward: specialist, leadership, or both, so expectations match how you actually demonstrate skills.</p>
+                </div>
+
+                <label class="assess-label" for="prof-role">What do you do?</label>
+                <input id="prof-role" class="assess-input" type="text" maxlength="200" required aria-required="true" autocomplete="organization-title" aria-describedby="prof-role-hint" placeholder="e.g. Policy adviser, casework team lead">
+                <p class="assess-field-why" id="prof-role-hint">Shown on your profile summary. Another way to tell multiple assessments apart.</p>
+                <label class="assess-label" for="prof-organisation">Where in government do you work?</label>
+                <input id="prof-organisation" class="assess-input" type="text" maxlength="200" required aria-required="true" autocomplete="organization" aria-describedby="prof-organisation-hint" placeholder="e.g. DWP, HMRC, Home Office">
+                <p class="assess-field-why" id="prof-organisation-hint">Helps label this assessment (for example alongside your name). Kept in your account only.</p>
+              </div>
+
+              <div id="prof-step-2" class="assess-wizard-step" hidden>
+                <h2 class="assess-wizard-step-title">Optional context</h2>
+                <p class="assess-hint assess-wizard-optional-lead">Skip anything here. These answers help the AI coach tailor suggestions. You can edit them later from your profile.</p>
+                <label class="assess-label" for="prof-why">Why are you completing this self-assessment?</label>
+                <textarea id="prof-why" class="assess-textarea" rows="3" maxlength="500" placeholder="e.g. Preparing for a new role…"></textarea>
+                <p class="assess-field-why">Helps the AI understand your goals when suggesting questions and coaching replies.</p>
+                <label class="assess-label" for="prof-notes">Anything else useful about your work?</label>
+                <textarea id="prof-notes" class="assess-textarea" rows="3" maxlength="800" placeholder="e.g. Tools you use, remit…"></textarea>
+                <p class="assess-field-why">Extra remit or tools context so AI suggestions fit how you work day to day.</p>
+                <label class="assess-label" for="prof-centrality">How central is digital, data or AI to your day-to-day role?</label>
+                <select id="prof-centrality" class="assess-select"></select>
+                <p class="assess-field-why">Adjusts proficiency focus bands for how central digital, data and AI are to your role.</p>
+                <label class="assess-label" for="prof-influence">What is your typical influence remit?</label>
+                <select id="prof-influence" class="assess-select"></select>
+                <p class="assess-field-why">Adjusts expected span of impact in your proficiency focus bands.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="assess-wizard-footer" id="prof-footer">
+          <button type="button" id="prof-next" class="btn btn-primary">Save</button>
+        </div>
+      </section>
+
+      <section id="pane-gated" class="assess-pane assess-gated-pane" hidden>
+        <h1 class="assess-pane-title">Complete your profile first</h1>
+        <p class="assess-lead">We need your name, grade, role and organisation (and, from EO upward, how you mainly work) before opening domain questions. About two minutes.</p>
+        <button type="button" id="btn-goto-profile" class="btn btn-primary">Go to profile</button>
+      </section>
+
+      <section id="pane-welcome" class="assess-pane assess-welcome-pane" hidden>
+        <h1 class="assess-pane-title">How this assessment works</h1>
+        <p class="assess-lead">Three steps: refine what is relevant to your role, answer those questions, then build a report against the expectations for your grade.</p>
+
+        <ol class="assess-welcome-steps">
+          <li class="assess-welcome-step">
+            <h2 class="assess-welcome-step-title">1. Refine the questions</h2>
+            <p>Work area by area. A short pre-assessment for each domain selects the questions that fit your remit, so you are not asked everything in the framework.</p>
+          </li>
+          <li class="assess-welcome-step">
+            <h2 class="assess-welcome-step-title">2. Answer the questions</h2>
+            <p>Rate yourself against the level descriptors. You can skip anything that still does not apply after refinement.</p>
+          </li>
+          <li class="assess-welcome-step">
+            <h2 class="assess-welcome-step-title">3. Build your report</h2>
+            <p>Your answers roll into cluster scores. We compare those with <strong>focus bands</strong>: the proficiency range we expect for your grade and how you work. <strong>Broader skills</strong> (transversals such as communication or problem solving) are built from tags on the questions you answer across areas, not from a separate quiz.</p>
+          </li>
+        </ol>
+
+        <p class="assess-hint assess-welcome-next">Next: open each area and complete its pre-assessment to select your questions.</p>
+        <button type="button" id="btn-welcome-continue" class="btn btn-primary">Continue to your areas</button>
+      </section>
+
+      <section id="pane-domain" class="assess-pane" hidden>
+        <header class="assess-domain-header">
+          <nav id="domain-breadcrumbs" class="assess-breadcrumbs" aria-label="Breadcrumb" hidden></nav>
+          <button type="button" id="domain-back-link" class="assess-back-link" hidden>Back</button>
+          <h1 class="assess-pane-title" id="domain-title">Domain</h1>
+          <p class="assess-question-progress" id="question-progress" hidden></p>
+          <p class="assess-lead" id="domain-blurb"></p>
+        </header>
+
+        <div id="domain-start" class="assess-domain-start" hidden>
+          <h2 class="assess-subhead">Refine questions for this area</h2>
+          <p class="assess-domain-start-desc" id="domain-start-desc"></p>
+          <p class="assess-lead" id="domain-start-lead">A short pre-assessment decides which questions from this domain apply to your role.</p>
+          <p class="assess-hint" id="domain-start-hint">You will answer a few choice questions about your exposure and remit. That unlocks a tailored question list for this area.</p>
+          <button type="button" id="btn-domain-start" class="btn btn-primary">Start assessment</button>
+        </div>
+
+        <div id="domain-qualify" class="assess-qualify" hidden>
+          <h2 class="assess-subhead">About this area</h2>
+          <p class="assess-hint assess-qualify-lead">A couple of quick questions so we only show what&rsquo;s relevant for your role.</p>
+          <form id="qualify-form" class="assess-form"></form>
+          <button type="submit" form="qualify-form" id="btn-qualify-submit" class="btn btn-primary">Open questions for my role</button>
+        </div>
+
+        <div id="domain-overview" class="assess-domain-overview" hidden>
+          <section class="assess-overview-intro assess-overview-intro--mobile" aria-labelledby="overview-intro-heading">
+            <h2 id="overview-intro-heading" class="assess-overview-section-title">Why this area matters</h2>
+            <p id="overview-lead" class="assess-overview-lead"></p>
+          </section>
+
+          <section class="assess-overview-questions" aria-labelledby="overview-questions-heading">
+            <h2 id="overview-questions-heading" class="assess-overview-section-title">Questions selected for you</h2>
+            <p id="overview-questions-lead" class="assess-overview-questions-lead">
+              Open a question to rate yourself. Your level shows beside each one once you have answered.
+            </p>
+            <div id="overview-toolbar" class="assess-overview-toolbar" hidden>
+              <button type="button" id="btn-edit-preassessment" class="btn btn-secondary btn-sm">Update pre-assessment</button>
+              <label class="assess-overview-toggle">
+                <input type="checkbox" id="overview-show-catalogue">
+                Show other questions in this area
+              </label>
+            </div>
+            <p id="overview-catalogue-hint" class="assess-hint assess-overview-catalogue-hint" hidden>
+              Greyed-out questions were not selected for your role. Use Include to add one, or open it and choose a level.
+            </p>
+            <div id="overview-groups" class="assess-overview-groups"></div>
+          </section>
+        </div>
+
+        <div id="domain-workspace" class="assess-workspace" hidden>
+          <div id="question-detail" class="assess-q-detail">
+            <p class="assess-hint">Select a question from the overview.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pane-report" class="assess-pane assess-report-pane" hidden>
+        <nav id="report-breadcrumbs" class="assess-breadcrumbs" aria-label="Breadcrumb"></nav>
+        <div id="report-loading" class="report-loading" role="status" aria-live="polite">Loading progression report…</div>
+        <p id="report-error" class="assess-error" role="alert" hidden></p>
+        <div id="report-content" class="assess-report-content" hidden></div>
+      </section>
+    </main>
+
+    <button type="button" id="btn-open-coach" class="assess-coach-fab" hidden aria-controls="chat-pane">AI coach</button>
+    <div class="assess-chat-backdrop" id="chat-backdrop" hidden></div>
+    <div class="assess-chat-resizer" id="chat-resizer" role="separator" aria-orientation="vertical" aria-label="Resize AI sidebar" tabindex="0" hidden></div>
+
+    <aside class="assess-chat-pane" id="chat-pane" aria-label="AI coach" hidden>
+      <header class="assess-chat-header">
+        <div class="assess-chat-header-row">
+          <h2 class="assess-chat-title">AI coach</h2>
+          <div class="assess-chat-header-actions">
+            <button type="button" id="btn-clear-chat" class="btn btn-secondary btn-sm assess-chat-clear" hidden>Clear chat</button>
+            <button type="button" id="btn-close-coach" class="btn btn-secondary btn-sm" hidden>Close</button>
+          </div>
+        </div>
+        <p id="chat-focus" class="assess-chat-focus">Whole assessment</p>
+      </header>
+      <div id="chat-disabled" class="assess-chat-disabled" hidden>
+        <p>AI coaching is off. Complete questions in the main panel using your profile and grade filters.</p>
+      </div>
+      <div id="chat-active" class="assess-chat-active" hidden>
+        <div id="chat-starters" class="assess-chat-starters" aria-label="Suggested prompts"></div>
+        <div id="chat-status" class="assess-status" role="status" aria-live="polite" hidden>
+          <span class="assess-status-pulse" aria-hidden="true"></span>
+          <p id="chat-status-text" class="assess-status-text"></p>
+        </div>
+        <div id="chat-messages" class="assess-chat-messages"></div>
+        <form id="chat-form" class="assess-chat-form">
+          <label class="visually-hidden" for="chat-input">Message</label>
+          <textarea id="chat-input" class="assess-textarea" rows="3" placeholder="Choose a coach task above…" disabled></textarea>
+          <button type="submit" class="btn btn-primary" id="chat-send" disabled>Send</button>
+        </form>
+      </div>
+    </aside>
+  </div>
+  </div>
+
+  <script type="module" src="js/assess-shell.js"></script>
+</body>
+</html>

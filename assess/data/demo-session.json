@@ -1,0 +1,569 @@
+{
+  "id": "demo-jordan-chen",
+  "title": "Demo: Jordan Chen",
+  "status": "active",
+  "profile": {
+    "grade_id": "EO",
+    "grade_name": "EO",
+    "grade_order": 2,
+    "ddi_centrality": "adjacent",
+    "influence": "team",
+    "demonstration_pathway": "leadership",
+    "pathway_label": null,
+    "role_ceiling": 3,
+    "focus_min": 2,
+    "focus_max": 3,
+    "learner_name": "Jordan Chen",
+    "role_title": "Executive Officer — team coordinator",
+    "organisation": "DWP — benefit processing centre",
+    "why": "Demo completed assessment mirroring the Jordan Chen progression report.",
+    "notes": "Seeded from demo persona jordan-chen.",
+    "name": "Jordan Chen",
+    "narrative": "Coordinates a small team of AOs on daily processing work — allocating tasks, checking quality and supporting new starters. Strength shows in creating conditions for the team to work well and in collaborative, empathetic practice. Knowledge on specialist topics is solid at a working level rather than deep expert authority.",
+    "interpretation": "Strongest in foundational areas that match everyday team coordination. Leading and supporting others — not deepest specialist depth — is the headline."
+  },
+  "memory": {
+    "notes": [],
+    "domains": {}
+  },
+  "created_at": "2026-08-13T13:39:57.946Z",
+  "updated_at": "2026-08-13T13:39:57.946Z",
+  "domains": [
+    {
+      "id": "179f8e5a-8a13-4da4-b556-6244ad887b70",
+      "domain": "Data",
+      "status": "complete",
+      "gates": {
+        "data_exposure": "some",
+        "domain_context": "Demo context for Jordan Chen — Executive Officer — team coordinator"
+      },
+      "selection": {
+        "include": [
+          {
+            "question_id": "data|foundational-data-skills|data-literacy|behaviours|1",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "data|foundational-data-skills|managing-data-lifecycles|behaviours|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "data|foundational-data-skills|data-literacy|behaviours|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "data|foundational-data-skills|data-literacy|behaviours|2",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "data|foundational-data-skills|data-literacy|skills|2",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "data|foundational-data-skills|interpreting-visual-data|behaviours|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          }
+        ],
+        "exclude": [],
+        "suggested_order": [
+          "data|foundational-data-skills|data-literacy|behaviours|1",
+          "data|foundational-data-skills|managing-data-lifecycles|behaviours|0",
+          "data|foundational-data-skills|data-literacy|behaviours|0",
+          "data|foundational-data-skills|data-literacy|behaviours|2",
+          "data|foundational-data-skills|data-literacy|skills|2",
+          "data|foundational-data-skills|interpreting-visual-data|behaviours|0"
+        ],
+        "opening_message": "Demo questions for Data.",
+        "memory_notes": [
+          "Seeded completed Data domain for Jordan Chen"
+        ],
+        "meta": {
+          "provider": "demo-seed",
+          "selection_cap": 6
+        }
+      },
+      "completed_at": "2026-08-13T13:39:57.946Z",
+      "created_at": "2026-08-13T13:39:57.946Z",
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "id": "cba2f4c8-99c8-4a37-ba58-37862b6784fa",
+      "domain": "AI",
+      "status": "complete",
+      "gates": {
+        "ai_exposure": "some",
+        "domain_context": "Demo context for Jordan Chen — Executive Officer — team coordinator"
+      },
+      "selection": {
+        "include": [
+          {
+            "question_id": "ai|foundational-ai-skills|assessing-ai-opportunities|skills|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "ai|foundational-ai-skills|assessing-ai-opportunities|skills|1",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "ai|foundational-ai-skills|using-ai-safely|behaviours|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "ai|foundational-ai-skills|using-ai-safely|skills|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "ai|foundational-ai-skills|ai-literacy|behaviours|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "ai|foundational-ai-skills|ai-literacy|skills|1",
+            "reason": "Demo seed selection",
+            "priority": 1
+          }
+        ],
+        "exclude": [],
+        "suggested_order": [
+          "ai|foundational-ai-skills|assessing-ai-opportunities|skills|0",
+          "ai|foundational-ai-skills|assessing-ai-opportunities|skills|1",
+          "ai|foundational-ai-skills|using-ai-safely|behaviours|0",
+          "ai|foundational-ai-skills|using-ai-safely|skills|0",
+          "ai|foundational-ai-skills|ai-literacy|behaviours|0",
+          "ai|foundational-ai-skills|ai-literacy|skills|1"
+        ],
+        "opening_message": "Demo questions for AI.",
+        "memory_notes": [
+          "Seeded completed AI domain for Jordan Chen"
+        ],
+        "meta": {
+          "provider": "demo-seed",
+          "selection_cap": 6
+        }
+      },
+      "completed_at": "2026-08-13T13:39:57.946Z",
+      "created_at": "2026-08-13T13:39:57.946Z",
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "id": "ac40e0f7-663f-416e-9dce-8c12eea21dd4",
+      "domain": "Digital",
+      "status": "complete",
+      "gates": {
+        "digital_exposure": "some",
+        "domain_context": "Demo context for Jordan Chen — Executive Officer — team coordinator"
+      },
+      "selection": {
+        "include": [
+          {
+            "question_id": "digital|foundational-digital-skills|creating-accessible-digital-content|behaviours|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "digital|foundational-digital-skills|creating-accessible-digital-content|knowledge|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "digital|foundational-digital-skills|creating-accessible-digital-content|skills|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "digital|foundational-digital-skills|using-digital-tools-effectively|skills|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "digital|foundational-digital-skills|using-digital-tools-effectively|skills|1",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "digital|foundational-digital-skills|choosing-the-right-digital-tools|skills|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "digital|responsible-information-practices|handling-information-accurately-and-responsibly|skills|1",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "digital|responsible-information-practices|handling-information-accurately-and-responsibly|skills|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          }
+        ],
+        "exclude": [],
+        "suggested_order": [
+          "digital|foundational-digital-skills|creating-accessible-digital-content|behaviours|0",
+          "digital|foundational-digital-skills|creating-accessible-digital-content|knowledge|0",
+          "digital|foundational-digital-skills|creating-accessible-digital-content|skills|0",
+          "digital|foundational-digital-skills|using-digital-tools-effectively|skills|0",
+          "digital|foundational-digital-skills|using-digital-tools-effectively|skills|1",
+          "digital|foundational-digital-skills|choosing-the-right-digital-tools|skills|0",
+          "digital|responsible-information-practices|handling-information-accurately-and-responsibly|skills|1",
+          "digital|responsible-information-practices|handling-information-accurately-and-responsibly|skills|0"
+        ],
+        "opening_message": "Demo questions for Digital.",
+        "memory_notes": [
+          "Seeded completed Digital domain for Jordan Chen"
+        ],
+        "meta": {
+          "provider": "demo-seed",
+          "selection_cap": 8
+        }
+      },
+      "completed_at": "2026-08-13T13:39:57.946Z",
+      "created_at": "2026-08-13T13:39:57.946Z",
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "id": "a7c8261d-ba63-4c64-8759-8e660a30a84e",
+      "domain": "Innovation",
+      "status": "complete",
+      "gates": {
+        "innovation_exposure": "some",
+        "domain_context": "Demo context for Jordan Chen — Executive Officer — team coordinator"
+      },
+      "selection": {
+        "include": [
+          {
+            "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|behaviours|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|behaviours|1",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|behaviours|2",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|skills|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          },
+          {
+            "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|knowledge|0",
+            "reason": "Demo seed selection",
+            "priority": 1
+          }
+        ],
+        "exclude": [],
+        "suggested_order": [
+          "innovation|conditions-for-innovation|psychological-safety-and-adaptability|behaviours|0",
+          "innovation|conditions-for-innovation|psychological-safety-and-adaptability|behaviours|1",
+          "innovation|conditions-for-innovation|psychological-safety-and-adaptability|behaviours|2",
+          "innovation|conditions-for-innovation|psychological-safety-and-adaptability|skills|0",
+          "innovation|conditions-for-innovation|psychological-safety-and-adaptability|knowledge|0"
+        ],
+        "opening_message": "Demo questions for Innovation.",
+        "memory_notes": [
+          "Seeded completed Innovation domain for Jordan Chen"
+        ],
+        "meta": {
+          "provider": "demo-seed",
+          "selection_cap": 5
+        }
+      },
+      "completed_at": "2026-08-13T13:39:57.946Z",
+      "created_at": "2026-08-13T13:39:57.946Z",
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    }
+  ],
+  "answers": [
+    {
+      "question_id": "data|foundational-data-skills|data-literacy|behaviours|1",
+      "domain": "Data",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "data|foundational-data-skills|managing-data-lifecycles|behaviours|0",
+      "domain": "Data",
+      "status": "reviewed",
+      "level": 5,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "data|foundational-data-skills|data-literacy|behaviours|0",
+      "domain": "Data",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "data|foundational-data-skills|data-literacy|behaviours|2",
+      "domain": "Data",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "data|foundational-data-skills|data-literacy|skills|2",
+      "domain": "Data",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "data|foundational-data-skills|interpreting-visual-data|behaviours|0",
+      "domain": "Data",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "ai|foundational-ai-skills|assessing-ai-opportunities|skills|0",
+      "domain": "AI",
+      "status": "reviewed",
+      "level": 2,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "ai|foundational-ai-skills|assessing-ai-opportunities|skills|1",
+      "domain": "AI",
+      "status": "reviewed",
+      "level": 2,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "ai|foundational-ai-skills|using-ai-safely|behaviours|0",
+      "domain": "AI",
+      "status": "reviewed",
+      "level": 4,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "ai|foundational-ai-skills|using-ai-safely|skills|0",
+      "domain": "AI",
+      "status": "reviewed",
+      "level": 2,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "ai|foundational-ai-skills|ai-literacy|behaviours|0",
+      "domain": "AI",
+      "status": "reviewed",
+      "level": 2,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "ai|foundational-ai-skills|ai-literacy|skills|1",
+      "domain": "AI",
+      "status": "reviewed",
+      "level": 2,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "digital|foundational-digital-skills|creating-accessible-digital-content|behaviours|0",
+      "domain": "Digital",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "digital|foundational-digital-skills|creating-accessible-digital-content|knowledge|0",
+      "domain": "Digital",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "digital|foundational-digital-skills|creating-accessible-digital-content|skills|0",
+      "domain": "Digital",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "digital|foundational-digital-skills|using-digital-tools-effectively|skills|0",
+      "domain": "Digital",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "digital|foundational-digital-skills|using-digital-tools-effectively|skills|1",
+      "domain": "Digital",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "digital|foundational-digital-skills|choosing-the-right-digital-tools|skills|0",
+      "domain": "Digital",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "digital|responsible-information-practices|handling-information-accurately-and-responsibly|skills|1",
+      "domain": "Digital",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "digital|responsible-information-practices|handling-information-accurately-and-responsibly|skills|0",
+      "domain": "Digital",
+      "status": "reviewed",
+      "level": 3,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|behaviours|0",
+      "domain": "Innovation",
+      "status": "reviewed",
+      "level": 4,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|behaviours|1",
+      "domain": "Innovation",
+      "status": "reviewed",
+      "level": 4,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|behaviours|2",
+      "domain": "Innovation",
+      "status": "reviewed",
+      "level": 4,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|skills|0",
+      "domain": "Innovation",
+      "status": "reviewed",
+      "level": 4,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    },
+    {
+      "question_id": "innovation|conditions-for-innovation|psychological-safety-and-adaptability|knowledge|0",
+      "domain": "Innovation",
+      "status": "reviewed",
+      "level": 4,
+      "ai_rationale": null,
+      "evidence": [],
+      "reviewed_at": "2026-08-13T13:39:57.946Z",
+      "ai_updated_at": null,
+      "updated_at": "2026-08-13T13:39:57.946Z"
+    }
+  ],
+  "messages": []
+}

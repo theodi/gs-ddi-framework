@@ -1,0 +1,59 @@
+domain,cluster,outcome_id,text
+Data,Foundational Data Skills,1,"Explain what data are, where they come from in your work, and why quality and context matter for sound decisions."
+Data,Foundational Data Skills,2,"Read common charts, tables and dashboards accurately - identifying trends, limitations and misleading presentation."
+Data,Foundational Data Skills,3,"Apply basic good practice across the data lifecycle (collect, store, share, retain, dispose) in line with organisational policy."
+Data,Foundational Data Skills,4,Describe how your role contributes to responsible data use and recognise when specialist advice is needed.
+Data,Data Quality and Integrity,1,"Assess whether data are fit for purpose (accuracy, completeness, timeliness, representativeness) and document known limitations."
+Data,Data Quality and Integrity,2,"Apply ethical and legal principles when collecting, using and sharing data - including privacy, security and fair treatment."
+Data,Data Quality and Integrity,3,"Use agreed data standards, definitions and metadata so information stays consistent and interoperable."
+Data,Data Quality and Integrity,4,Challenge poor-quality or inappropriate data use constructively and escalate issues through the right channels.
+Data,Data-Driven Decision Making,1,Frame clear questions that data can help answer and identify what evidence would strengthen a decision.
+Data,Data-Driven Decision Making,2,"Apply appropriate analytical approaches to explore patterns, test assumptions and surface actionable insight."
+Data,Data-Driven Decision Making,3,Communicate findings accessibly - separating fact from interpretation and stating uncertainty honestly.
+Data,Data-Driven Decision Making,4,Recommend evidence-based actions and explain trade-offs when data are incomplete or inconclusive.
+Data,Responsible Data Sharing,1,Identify opportunities to share or reuse data that deliver public benefit while respecting legal and ethical duties.
+Data,Responsible Data Sharing,2,"Apply proportionate governance - agreements, access controls and audit - when collaborating across boundaries."
+Data,Responsible Data Sharing,3,Assess re-identification and misuse risks before sharing and choose safer alternatives where risks are high.
+Data,Responsible Data Sharing,4,"Work effectively with data owners, legal and security colleagues to enable lawful, ethical reuse."
+AI,Foundational AI Skills,1,"Explain in plain language what AI and automation are, including common types (e.g. prediction, classification, generative AI), how they differ from conventional software, and common limitations."
+AI,Foundational AI Skills,2,Recognise where AI could improve efficiency or outcomes - and where human judgement must remain central.
+AI,Foundational AI Skills,3,"Know which AI tools are approved for your work, what data can safely be shared with them, and follow organisational guidance when using them."
+AI,Foundational AI Skills,4,"Spot when a prompt or task carries a safety risk, adjust or stop before proceeding, and escalate concerns to the right person when something feels wrong."
+AI,Foundational AI Skills,5,"Identify unreliable AI output and know when to verify, reject or escalate before acting on results."
+AI,AI Governance and Ethics,1,"Critically evaluate AI outputs for accuracy, bias and fitness for purpose before acting on or sharing them."
+AI,AI Governance and Ethics,2,"Apply relevant legal and regulatory requirements to AI use in your context (equality, transparency, procurement and records)."
+AI,AI Governance and Ethics,3,"Document decisions about AI use - including human oversight, disclosure to citizens and proportionate risk acceptance."
+AI,AI Governance and Ethics,4,Challenge unethical or non-compliant AI proposals and support governance controls that match the level of risk.
+Digital,Foundational Digital Skills,1,"Use core digital tools (documents, collaboration, calendars, messaging) efficiently and securely for routine tasks."
+Digital,Foundational Digital Skills,2,"Select appropriate digital channels and formats for a task, considering audience, security and record-keeping needs."
+Digital,Foundational Digital Skills,3,Create digital content that meets accessibility standards and plain-language expectations.
+Digital,Foundational Digital Skills,4,"Manage your digital footprint responsibly - device hygiene, credentials and recognising common scams or phishing."
+Digital,Digital Transformation,1,Map user journeys and pain points for a service or process and identify where digital could improve outcomes.
+Digital,Digital Transformation,2,Apply user research and feedback methods proportionate to the scale and risk of change.
+Digital,Digital Transformation,3,"Design or improve services iteratively, testing with diverse users and refining based on evidence."
+Digital,Digital Transformation,4,Balance pace of delivery with inclusion - ensuring changes work for assisted-digital and non-digital users.
+Digital,Digital Leadership,1,"Articulate how digital, data and AI can improve team outcomes in line with organisational priorities."
+Digital,Digital Leadership,2,"Build team capability and confidence through coaching, role modelling and removing barriers to good practice."
+Digital,Digital Leadership,3,"Manage change associated with technology adoption - expectations, training and transition from legacy ways of working."
+Digital,Digital Leadership,4,"Make informed trade-offs between innovation, risk, cost and inclusion when championing technology-enabled change."
+Digital,Responsible Information Practices,1,"Verify information sources, version control and ownership before using or publishing content."
+Digital,Responsible Information Practices,2,Apply records management and retention requirements appropriate to your role and information type.
+Digital,Responsible Information Practices,3,"Handle personal and sensitive information in line with classification, need-to-know and secure-sharing rules."
+Digital,Responsible Information Practices,4,Correct errors promptly and transparently when inaccurate information has been shared.
+Innovation,Conditions for Innovation,1,"Contribute to a team climate where people can raise ideas, experiment and learn from setbacks without blame."
+Innovation,Conditions for Innovation,2,Respond constructively to change and uncertainty - adapting plans when evidence or context shifts.
+Innovation,Conditions for Innovation,3,Recognise personal and team habits that help or hinder innovation and take practical steps to improve them.
+Innovation,Conditions for Innovation,4,Balance delivery pressure with space for exploration proportionate to the problem you are solving.
+Innovation,Understanding the Problem,1,"Identify problems and opportunities worth solving by combining user insight, data and organisational context."
+Innovation,Understanding the Problem,2,Frame problems clearly - distinguishing symptoms from causes and defining success in outcome terms.
+Innovation,Doing the Work,1,"Navigate the stages of the innovation lifecycle and use evidence to decide when to refine, stop or scale a solution."
+Innovation,Doing the Work,2,"Design small, low-risk experiments that test the riskiest assumptions behind an idea."
+Innovation,Doing the Work,3,"Create prototypes (paper, digital or process) that help stakeholders experience and critique a proposed solution."
+Innovation,Doing the Work,4,Gather structured feedback from users and colleagues and use it to refine or pivot proposals.
+Innovation,Doing the Work,5,"Document what was learned from testing - including reasons to stop, change direction or proceed."
+Innovation,Doing the Work,6,"Tell compelling stories that connect user need, evidence and proposed change for decision-makers and stakeholders."
+Innovation,Doing the Work,7,"Build coalitions for change by listening, addressing concerns and aligning proposals with wider priorities."
+Innovation,Making Change Stick,1,Establish routines for reviewing performance and acting on feedback after a change goes live.
+Innovation,Making Change Stick,2,"Spread successful approaches beyond the initial pilot through documentation, coaching and communities of practice."
+Innovation,Making Change Stick,3,"Identify barriers to adoption (skills, incentives, process, technology) and address them proportionately."
+Innovation,Making Change Stick,4,Define simple measures that show whether a change is delivering intended outcomes and adjust accordingly.

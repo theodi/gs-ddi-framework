@@ -1,0 +1,23 @@
+id,path,product,axe_wcag_violations,note
+pub-home,/,publication,0,
+pub-accessibility,/accessibility.html,publication,0,
+pub-privacy,/privacy.html,publication,0,
+pub-contact,/contact.html,publication,0,
+pub-data,/data/,publication,0,
+pub-digital,/framework/digital.html,publication,0,
+pub-data-domain,/framework/data.html,publication,0,
+pub-innovation,/framework/innovation.html,publication,0,
+pub-ai,/framework/ai.html,publication,0,
+pub-proficiency,/framework/proficiency.html,publication,0,
+pub-roles,/framework/roles.html,publication,0,
+pub-transversals,/framework/transversals.html,publication,0,
+assess-home,/assess/,prototype,0,
+assess-a11y,/assess/accessibility.html,prototype,0,
+assess-privacy,/assess/privacy.html,prototype,0,
+assess-contact,/assess/contact.html,prototype,0,
+assess-list,/assess/assess.html,prototype,0,
+assess-example,/assess/example.html,prototype,0,
+assess-intake,/assess/assess.html#intake,prototype,0,
+pub-home-mobile,/,publication,0,375px viewport
+pub-home-320,/,publication,0,320px reflow
+pub-data-320,/data/,publication,0,320px reflow

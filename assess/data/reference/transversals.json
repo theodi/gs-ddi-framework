@@ -1,0 +1,34 @@
+{
+  "transversals": [
+    {
+      "id": "systems_thinking",
+      "name": "Systems Thinking",
+      "focus": "Analytical and critical thinking",
+      "definition": "Analyses how digital, data and AI systems and tools affect people, policies and institutions. Questions problems, interprets data critically, spots unintended impacts and chooses options that improve outcomes, not just add tech."
+    },
+    {
+      "id": "digital_wellbeing",
+      "name": "Digital Wellbeing",
+      "focus": "Supportive culture and psychological safety",
+      "definition": "Creates safe, inclusive spaces for colleagues and citizens to engage with digital change. Shows empathy, communicates clearly, addresss fears openly and models emotionally intelligent behaviours."
+    },
+    {
+      "id": "ethical_practice",
+      "name": "Ethical Practice",
+      "focus": "Trust, accountability and user focus",
+      "definition": "Makes responsible digital and AI decisions that protect rights and build public trust. Anticipates risks, designs around user needs and ensures fairness and safety while delivering value."
+    },
+    {
+      "id": "collaborative_working",
+      "name": "Collaborative Working",
+      "focus": "Teamwork and inclusivity",
+      "definition": "Brings together diverse perspectives to deliver joined-up digital services. Shares information, co-creates with users and coordinates work for benefits across the whole system."
+    },
+    {
+      "id": "continuous_learning",
+      "name": "Continuous Learning",
+      "focus": "Reflection & curiosity",
+      "definition": "Stays curious, experiments with new tools, reflects on outcomes, seeks feedback and refines practices to keep improving performance and service quality."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "intro": "Role-conditioned qualification gates for the self-assessment demo. Gates with min_grade_order above the learner's grade_order are hidden. aligns_with_cluster mirrors role-mapping clusterRelevance where possible.",
+  "domains": {
+    "AI": {
+      "label": "Working with AI",
+      "blurb": "Tools, literacy, opportunities, and — where relevant — governance.",
+      "gates": [
+        {
+          "id": "ai_exposure",
+          "min_grade_order": 1,
+          "type": "choice",
+          "prompt": "Do you use or encounter AI in your work?",
+          "prompt_by_grade": {
+            "AA_AO": "Do you use AI tools (for example Copilot or chat assistants) in your day-to-day casework or admin?",
+            "EO": "Do you use or encounter AI tools in your team’s day-to-day work?",
+            "G7": "How central is AI to the work you lead or commission?",
+            "G6": "How central is AI to the work you lead or commission?",
+            "SCS": "How central is AI to the outcomes you are accountable for?"
+          },
+          "options": [
+            { "id": "none", "label": "Not really / not yet" },
+            { "id": "occasionally", "label": "Occasionally" },
+            { "id": "regularly", "label": "Regularly" },
+            { "id": "core_to_role", "label": "Core to my role" }
+          ]
+        },
+        {
+          "id": "ai_exposure_detail",
+          "min_grade_order": 1,
+          "type": "textarea",
+          "depends_on": { "ai_exposure": ["occasionally", "regularly", "core_to_role"] },
+          "prompt": "What sort of things do you use AI for?",
+          "placeholder": "e.g. drafting briefings with Copilot, exploring use-cases, reviewing AI-generated summaries…"
+        },
+        {
+          "id": "ai_enable_others",
+          "min_grade_order": 3,
+          "type": "choice",
+          "prompt": "Do you help colleagues use AI well (coaching, standards in your team)?",
+          "options": [
+            { "id": "no", "label": "No" },
+            { "id": "informally", "label": "Informally" },
+            { "id": "yes", "label": "Yes — part of my remit" }
+          ]
+        },
+        {
+          "id": "ai_governance_remit",
+          "min_grade_order": 4,
+          "aligns_with_cluster": "AI|AI Governance and Ethics",
+          "type": "choice",
+          "prompt": "Are you responsible for AI policy, assurance, or compliance?",
+          "options": [
+            { "id": "no", "label": "No" },
+            { "id": "partial", "label": "Partially / contribute" },
+            { "id": "yes", "label": "Yes" }
+          ]
+        }
+      ]
+    },
+    "Digital": {
+      "label": "Digital tools and services",
+      "blurb": "Everyday tools, accessible content, and digital ways of working.",
+      "gates": [
+        {
+          "id": "digital_exposure",
+          "min_grade_order": 1,
+          "type": "choice",
+          "prompt": "How much of your work depends on digital tools and systems?",
+          "options": [
+            { "id": "none", "label": "Very little" },
+            { "id": "occasionally", "label": "Some of the time" },
+            { "id": "regularly", "label": "Most of my work" },
+            { "id": "core_to_role", "label": "I shape how digital work is done" }
+          ]
+        },
+        {
+          "id": "digital_exposure_detail",
+          "min_grade_order": 1,
+          "type": "textarea",
+          "depends_on": { "digital_exposure": ["occasionally", "regularly", "core_to_role"] },
+          "prompt": "Which tools or digital tasks matter most in your role?",
+          "placeholder": "e.g. casework systems, Microsoft 365, creating documents, collaborating online…"
+        },
+        {
+          "id": "digital_user_centred",
+          "min_grade_order": 3,
+          "aligns_with_cluster": "Digital|Digital Transformation",
+          "type": "choice",
+          "prompt": "Do you help design or improve digital services for users?",
+          "options": [
+            { "id": "no", "label": "No" },
+            { "id": "informally", "label": "Sometimes / informally" },
+            { "id": "yes", "label": "Yes — part of my remit" }
+          ]
+        },
+        {
+          "id": "digital_leadership_remit",
+          "min_grade_order": 5,
+          "aligns_with_cluster": "Digital|Digital Leadership",
+          "type": "choice",
+          "prompt": "Do you lead digital capability or transformation for a team or wider area?",
+          "options": [
+            { "id": "no", "label": "No" },
+            { "id": "partial", "label": "Partially" },
+            { "id": "yes", "label": "Yes" }
+          ]
+        }
+      ]
+    },
+    "Data": {
+      "label": "Working with data",
+      "blurb": "Literacy, quality, analysis, and sharing data responsibly.",
+      "gates": [
+        {
+          "id": "data_exposure",
+          "min_grade_order": 1,
+          "type": "choice",
+          "prompt": "How often do you work with data in your role?",
+          "options": [
+            { "id": "none", "label": "Rarely" },
+            { "id": "occasionally", "label": "Occasionally" },
+            { "id": "regularly", "label": "Regularly" },
+            { "id": "core_to_role", "label": "Core to my role" }
+          ]
+        },
+        {
+          "id": "data_exposure_detail",
+          "min_grade_order": 1,
+          "type": "textarea",
+          "depends_on": { "data_exposure": ["occasionally", "regularly", "core_to_role"] },
+          "prompt": "What kind of data work do you do?",
+          "placeholder": "e.g. updating records, reading dashboards, producing spreadsheets, briefing from analysis…"
+        },
+        {
+          "id": "data_analysis_remit",
+          "min_grade_order": 3,
+          "aligns_with_cluster": "Data|Data-Driven Decision Making",
+          "type": "choice",
+          "prompt": "Do you analyse data or use analysis to support decisions?",
+          "options": [
+            { "id": "no", "label": "No" },
+            { "id": "informally", "label": "Sometimes" },
+            { "id": "yes", "label": "Yes — regularly" }
+          ]
+        },
+        {
+          "id": "data_sharing_remit",
+          "min_grade_order": 3,
+          "aligns_with_cluster": "Data|Responsible Data Sharing",
+          "type": "choice",
+          "prompt": "Do you share or govern data across teams or organisations?",
+          "options": [
+            { "id": "no", "label": "No" },
+            { "id": "partial", "label": "Occasionally" },
+            { "id": "yes", "label": "Yes" }
+          ]
+        }
+      ]
+    },
+    "Innovation": {
+      "label": "Innovation and improvement",
+      "blurb": "Conditions for change, problem framing, testing ideas, and making change stick.",
+      "gates": [
+        {
+          "id": "innovation_exposure",
+          "min_grade_order": 1,
+          "type": "choice",
+          "prompt": "How often are you involved in improving how work is done?",
+          "options": [
+            { "id": "none", "label": "Rarely — I follow established processes" },
+            { "id": "occasionally", "label": "Occasionally suggest or try small changes" },
+            { "id": "regularly", "label": "Regularly involved in improvement" },
+            { "id": "core_to_role", "label": "Innovation / change is core to my role" }
+          ]
+        },
+        {
+          "id": "innovation_exposure_detail",
+          "min_grade_order": 1,
+          "type": "textarea",
+          "depends_on": { "innovation_exposure": ["occasionally", "regularly", "core_to_role"] },
+          "prompt": "What kinds of improvement or innovation work have you been part of?",
+          "placeholder": "e.g. process tweaks, pilots, workshops, storytelling about change…"
+        },
+        {
+          "id": "innovation_delivery",
+          "min_grade_order": 3,
+          "aligns_with_cluster": "Innovation|Doing the Work",
+          "type": "choice",
+          "prompt": "Do you test ideas, prototype, or run innovation projects?",
+          "options": [
+            { "id": "no", "label": "No" },
+            { "id": "informally", "label": "Informally" },
+            { "id": "yes", "label": "Yes" }
+          ]
+        },
+        {
+          "id": "innovation_scale",
+          "min_grade_order": 4,
+          "aligns_with_cluster": "Innovation|Making Change Stick",
+          "type": "choice",
+          "prompt": "Are you responsible for embedding or scaling change beyond your team?",
+          "options": [
+            { "id": "no", "label": "No" },
+            { "id": "partial", "label": "Partially" },
+            { "id": "yes", "label": "Yes" }
+          ]
+        }
+      ]
+    }
+  }
+}
